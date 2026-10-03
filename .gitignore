@@ -1,0 +1,9 @@
+*.log
+__pycache__/
+dxvk/
+skse/skybench/build/
+tools/dxvk-*/
+tools/llvm-mingw-*/
+tools/glslang/
+tools/*.exe
+tools/*.7z

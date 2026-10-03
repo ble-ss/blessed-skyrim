@@ -1,0 +1,5103 @@
+[
+ {
+  "campaign_id": "c1",
+  "plan": "whiterun-save",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c1-native-r1",
+     "c1-native-r2",
+     "c1-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c1-dxvk-r1",
+     "c1-dxvk-r2",
+     "c1-dxvk-r3"
+    ]
+   },
+   {
+    "row": "dxvk-nocache",
+    "run_ids": [
+     "c1-dxvk-nocache-r1",
+     "c1-dxvk-nocache-r2",
+     "c1-dxvk-nocache-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c1-fork-r1",
+     "c1-fork-r2",
+     "c1-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-probe",
+    "run_ids": [
+     "c1-fork-probe-r1",
+     "c1-fork-probe-r2",
+     "c1-fork-probe-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c10",
+  "plan": "uncapped-2",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c10-native-r1",
+     "c10-native-r2",
+     "c10-native-r3",
+     "c10-native-r4",
+     "c10-native-r5"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c10-dxvk-r1",
+     "c10-dxvk-r2",
+     "c10-dxvk-r3",
+     "c10-dxvk-r4",
+     "c10-dxvk-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c10-fork-r1",
+     "c10-fork-r2",
+     "c10-fork-r3",
+     "c10-fork-r4",
+     "c10-fork-r5"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c10-blessed-r1",
+     "c10-blessed-r2",
+     "c10-blessed-r3",
+     "c10-blessed-r4",
+     "c10-blessed-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c11",
+  "plan": "fork-gap",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c11-dxvk-r1",
+     "c11-dxvk-r2",
+     "c11-dxvk-r3",
+     "c11-dxvk-r4",
+     "c11-dxvk-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c11-fork-r1",
+     "c11-fork-r2",
+     "c11-fork-r3",
+     "c11-fork-r4",
+     "c11-fork-r5"
+    ]
+   },
+   {
+    "row": "fork-nort",
+    "run_ids": [
+     "c11-fork-nort-r1",
+     "c11-fork-nort-r2",
+     "c11-fork-nort-r3",
+     "c11-fork-nort-r4",
+     "c11-fork-nort-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c12",
+  "plan": "compiler",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c12-dxvk-r1",
+     "c12-dxvk-r2",
+     "c12-dxvk-r3",
+     "c12-dxvk-r4",
+     "c12-dxvk-r5"
+    ]
+   },
+   {
+    "row": "stock-msvc",
+    "run_ids": [
+     "c12-stock-msvc-r1",
+     "c12-stock-msvc-r2",
+     "c12-stock-msvc-r3",
+     "c12-stock-msvc-r4",
+     "c12-stock-msvc-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c12-fork-r1",
+     "c12-fork-r2",
+     "c12-fork-r3",
+     "c12-fork-r4",
+     "c12-fork-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c13",
+  "plan": "zero-cost",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "stock-msvc",
+    "run_ids": [
+     "c13-stock-msvc-r1",
+     "c13-stock-msvc-r2",
+     "c13-stock-msvc-r3",
+     "c13-stock-msvc-r4",
+     "c13-stock-msvc-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c13-fork-r1",
+     "c13-fork-r2",
+     "c13-fork-r3",
+     "c13-fork-r4",
+     "c13-fork-r5"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c13-blessed-r1",
+     "c13-blessed-r2",
+     "c13-blessed-r3",
+     "c13-blessed-r4",
+     "c13-blessed-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c14",
+  "plan": "noprobe",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "stock-msvc",
+    "run_ids": [
+     "c14-stock-msvc-r1",
+     "c14-stock-msvc-r2",
+     "c14-stock-msvc-r3",
+     "c14-stock-msvc-r4",
+     "c14-stock-msvc-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c14-fork-r1",
+     "c14-fork-r2",
+     "c14-fork-r3",
+     "c14-fork-r4",
+     "c14-fork-r5"
+    ]
+   },
+   {
+    "row": "fork-noprobe",
+    "run_ids": [
+     "c14-fork-noprobe-r1",
+     "c14-fork-noprobe-r2",
+     "c14-fork-noprobe-r3",
+     "c14-fork-noprobe-r4",
+     "c14-fork-noprobe-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c15",
+  "plan": "layered-ab",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c15-native-r1",
+     "c15-native-r2",
+     "c15-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c15-dxvk-r1",
+     "c15-dxvk-r2",
+     "c15-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c15-fork-r1",
+     "c15-fork-r2",
+     "c15-fork-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c15-blessed-r1",
+     "c15-blessed-r2",
+     "c15-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c16",
+  "plan": "layered-ab",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c16-native-r1",
+     "c16-native-r2",
+     "c16-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c16-dxvk-r1",
+     "c16-dxvk-r2",
+     "c16-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c16-fork-r1",
+     "c16-fork-r2",
+     "c16-fork-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c16-blessed-r1",
+     "c16-blessed-r2",
+     "c16-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c17",
+  "plan": "layered-ab",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c17-native-r1",
+     "c17-native-r2",
+     "c17-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c17-dxvk-r1",
+     "c17-dxvk-r2",
+     "c17-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c17-fork-r1",
+     "c17-fork-r2",
+     "c17-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-mingw",
+    "run_ids": [
+     "c17-fork-mingw-r1",
+     "c17-fork-mingw-r2",
+     "c17-fork-mingw-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c17-blessed-r1",
+     "c17-blessed-r2",
+     "c17-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c18",
+  "plan": "layered-ab",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c18-native-r1",
+     "c18-native-r2",
+     "c18-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c18-dxvk-r1",
+     "c18-dxvk-r2",
+     "c18-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c18-fork-r1",
+     "c18-fork-r2",
+     "c18-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-mingw",
+    "run_ids": [
+     "c18-fork-mingw-r1",
+     "c18-fork-mingw-r2",
+     "c18-fork-mingw-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c18-blessed-r1",
+     "c18-blessed-r2",
+     "c18-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c19",
+  "plan": "perf-parts",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "base",
+    "run_ids": [
+     "c19-base-r1",
+     "c19-base-r2",
+     "c19-base-r3"
+    ]
+   },
+   {
+    "row": "alloc",
+    "run_ids": [
+     "c19-alloc-r1",
+     "c19-alloc-r2",
+     "c19-alloc-r3"
+    ]
+   },
+   {
+    "row": "ring",
+    "run_ids": [
+     "c19-ring-r1",
+     "c19-ring-r2",
+     "c19-ring-r3"
+    ]
+   },
+   {
+    "row": "alloc-ring",
+    "run_ids": [
+     "c19-alloc-ring-r1",
+     "c19-alloc-ring-r2",
+     "c19-alloc-ring-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c2",
+  "plan": "rt-shadows",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "fork",
+    "run_ids": [
+     "c2-fork-r1",
+     "c2-fork-r2",
+     "c2-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-rt",
+    "run_ids": [
+     "c2-fork-rt-r1",
+     "c2-fork-rt-r2",
+     "c2-fork-rt-r3"
+    ]
+   },
+   {
+    "row": "fork-rt-skip",
+    "run_ids": [
+     "c2-fork-rt-skip-r1",
+     "c2-fork-rt-skip-r2",
+     "c2-fork-rt-skip-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c20",
+  "plan": "cache-ab",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "perf",
+    "run_ids": [
+     "c20-perf-r1",
+     "c20-perf-r2",
+     "c20-perf-r3"
+    ]
+   },
+   {
+    "row": "perf-nocache",
+    "run_ids": [
+     "c20-perf-nocache-r1",
+     "c20-perf-nocache-r2",
+     "c20-perf-nocache-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c20-blessed-r1",
+     "c20-blessed-r2",
+     "c20-blessed-r3"
+    ]
+   },
+   {
+    "row": "blessed-nocache",
+    "run_ids": [
+     "c20-blessed-nocache-r1",
+     "c20-blessed-nocache-r2",
+     "c20-blessed-nocache-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c21",
+  "plan": "cpu-bound",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c21-native-r1",
+     "c21-native-r2",
+     "c21-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c21-dxvk-r1",
+     "c21-dxvk-r2",
+     "c21-dxvk-r3"
+    ]
+   },
+   {
+    "row": "ring",
+    "run_ids": [
+     "c21-ring-r1",
+     "c21-ring-r2",
+     "c21-ring-r3"
+    ]
+   },
+   {
+    "row": "ring-thr",
+    "run_ids": [
+     "c21-ring-thr-r1",
+     "c21-ring-thr-r2",
+     "c21-ring-thr-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c22",
+  "plan": "alloc-ab",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "ring-thr",
+    "run_ids": [
+     "c22-ring-thr-r1",
+     "c22-ring-thr-r2",
+     "c22-ring-thr-r3"
+    ]
+   },
+   {
+    "row": "ring-thr-alloc",
+    "run_ids": [
+     "c22-ring-thr-alloc-r1",
+     "c22-ring-thr-alloc-r2",
+     "c22-ring-thr-alloc-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c23",
+  "plan": "perf-vs-native",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native-ultra1080",
+    "run_ids": [
+     "c23-native-ultra1080-r1",
+     "c23-native-ultra1080-r2",
+     "c23-native-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "dxvk-ultra1080",
+    "run_ids": [
+     "c23-dxvk-ultra1080-r1",
+     "c23-dxvk-ultra1080-r2",
+     "c23-dxvk-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "perf-ultra1080",
+    "run_ids": [
+     "c23-perf-ultra1080-r1",
+     "c23-perf-ultra1080-r2",
+     "c23-perf-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "native-low720",
+    "run_ids": [
+     "c23-native-low720-r1",
+     "c23-native-low720-r2",
+     "c23-native-low720-r3"
+    ]
+   },
+   {
+    "row": "dxvk-low720",
+    "run_ids": [
+     "c23-dxvk-low720-r1",
+     "c23-dxvk-low720-r2",
+     "c23-dxvk-low720-r3"
+    ]
+   },
+   {
+    "row": "perf-low720",
+    "run_ids": [
+     "c23-perf-low720-r1",
+     "c23-perf-low720-r2",
+     "c23-perf-low720-r3",
+     "c23-perf-low720-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c24",
+  "plan": "critical-levers",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c24-native-r1",
+     "c24-native-r2",
+     "c24-native-r3"
+    ]
+   },
+   {
+    "row": "perf",
+    "run_ids": [
+     "c24-perf-r1",
+     "c24-perf-r2",
+     "c24-perf-r3"
+    ]
+   },
+   {
+    "row": "perf-volhalf",
+    "run_ids": [
+     "c24-perf-volhalf-r1",
+     "c24-perf-volhalf-r2",
+     "c24-perf-volhalf-r3"
+    ]
+   },
+   {
+    "row": "perf-volcollapse",
+    "run_ids": [
+     "c24-perf-volcollapse-r1",
+     "c24-perf-volcollapse-r2",
+     "c24-perf-volcollapse-r3"
+    ]
+   },
+   {
+    "row": "perf-precip",
+    "run_ids": [
+     "c24-perf-precip-r1",
+     "c24-perf-precip-r2",
+     "c24-perf-precip-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c24-perf-max-r1",
+     "c24-perf-max-r2",
+     "c24-perf-max-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c25",
+  "plan": "engine-switches",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "sw-base-low720",
+    "run_ids": [
+     "c25-sw-base-low720-r1",
+     "c25-sw-base-low720-r2",
+     "c25-sw-base-low720-r3"
+    ]
+   },
+   {
+    "row": "sw-jaw0-low720",
+    "run_ids": [
+     "c25-sw-jaw0-low720-r1",
+     "c25-sw-jaw0-low720-r2",
+     "c25-sw-jaw0-low720-r3"
+    ]
+   },
+   {
+    "row": "sw-cullplane1-low720",
+    "run_ids": [
+     "c25-sw-cullplane1-low720-r1",
+     "c25-sw-cullplane1-low720-r2",
+     "c25-sw-cullplane1-low720-r3"
+    ]
+   },
+   {
+    "row": "sw-f2b1-low720",
+    "run_ids": [
+     "c25-sw-f2b1-low720-r1",
+     "c25-sw-f2b1-low720-r2",
+     "c25-sw-f2b1-low720-r3"
+    ]
+   },
+   {
+    "row": "sw-lodz0-low720",
+    "run_ids": [
+     "c25-sw-lodz0-low720-r1",
+     "c25-sw-lodz0-low720-r2",
+     "c25-sw-lodz0-low720-r3"
+    ]
+   },
+   {
+    "row": "sw-all-low720",
+    "run_ids": [
+     "c25-sw-all-low720-r1",
+     "c25-sw-all-low720-r2",
+     "c25-sw-all-low720-r3"
+    ]
+   },
+   {
+    "row": "sw-base-ultra1080",
+    "run_ids": [
+     "c25-sw-base-ultra1080-r1",
+     "c25-sw-base-ultra1080-r2",
+     "c25-sw-base-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "sw-jaw0-ultra1080",
+    "run_ids": [
+     "c25-sw-jaw0-ultra1080-r1",
+     "c25-sw-jaw0-ultra1080-r2",
+     "c25-sw-jaw0-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "sw-cullplane1-ultra1080",
+    "run_ids": [
+     "c25-sw-cullplane1-ultra1080-r1",
+     "c25-sw-cullplane1-ultra1080-r2",
+     "c25-sw-cullplane1-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "sw-f2b1-ultra1080",
+    "run_ids": [
+     "c25-sw-f2b1-ultra1080-r1",
+     "c25-sw-f2b1-ultra1080-r2",
+     "c25-sw-f2b1-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "sw-lodz0-ultra1080",
+    "run_ids": [
+     "c25-sw-lodz0-ultra1080-r1",
+     "c25-sw-lodz0-ultra1080-r2",
+     "c25-sw-lodz0-ultra1080-r3"
+    ]
+   },
+   {
+    "row": "sw-all-ultra1080",
+    "run_ids": [
+     "c25-sw-all-ultra1080-r1",
+     "c25-sw-all-ultra1080-r2",
+     "c25-sw-all-ultra1080-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c26",
+  "plan": "checks-evening",
+  "repeats": 1,
+  "rows": [
+   {
+    "row": "casc-verify",
+    "run_ids": [
+     "c26-casc-verify-r1"
+    ]
+   },
+   {
+    "row": "perf-ultra",
+    "run_ids": [
+     "c26-perf-ultra-r1"
+    ]
+   },
+   {
+    "row": "bridge-cpu",
+    "run_ids": [
+     "c26-bridge-cpu-r1"
+    ]
+   },
+   {
+    "row": "bridge",
+    "run_ids": [
+     "c26-bridge-r1"
+    ]
+   },
+   {
+    "row": "jaw0-census",
+    "run_ids": [
+     "c26-jaw0-census-r1"
+    ]
+   },
+   {
+    "row": "base-census",
+    "run_ids": [
+     "c26-base-census-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c27",
+  "plan": "crash-hunt",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "hunt0",
+    "run_ids": [
+     "c27-hunt0-r1",
+     "c27-hunt0-r2"
+    ]
+   },
+   {
+    "row": "hunt1",
+    "run_ids": [
+     "c27-hunt1-r1",
+     "c27-hunt1-r2"
+    ]
+   },
+   {
+    "row": "hunt2",
+    "run_ids": [
+     "c27-hunt2-r1",
+     "c27-hunt2-r2"
+    ]
+   },
+   {
+    "row": "hunt3",
+    "run_ids": [
+     "c27-hunt3-r1",
+     "c27-hunt3-r2"
+    ]
+   },
+   {
+    "row": "hunt4",
+    "run_ids": [
+     "c27-hunt4-r1",
+     "c27-hunt4-r2"
+    ]
+   },
+   {
+    "row": "hunt5",
+    "run_ids": [
+     "c27-hunt5-r1",
+     "c27-hunt5-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c28",
+  "plan": "critical-2",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "casc-verify",
+    "run_ids": [
+     "c28-casc-verify-r1",
+     "c28-casc-verify-r2",
+     "c28-casc-verify-r3"
+    ]
+   },
+   {
+    "row": "native",
+    "run_ids": [
+     "c28-native-r1",
+     "c28-native-r2",
+     "c28-native-r3"
+    ]
+   },
+   {
+    "row": "perf",
+    "run_ids": [
+     "c28-perf-r1",
+     "c28-perf-r2",
+     "c28-perf-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c28-perf-max-r1",
+     "c28-perf-max-r2",
+     "c28-perf-max-r3"
+    ]
+   },
+   {
+    "row": "perf-max-cascache",
+    "run_ids": [
+     "c28-perf-max-cascache-r1",
+     "c28-perf-max-cascache-r2",
+     "c28-perf-max-cascache-r3"
+    ]
+   },
+   {
+    "row": "perf-max-cascache-exact",
+    "run_ids": [
+     "c28-perf-max-cascache-exact-r1",
+     "c28-perf-max-cascache-exact-r2",
+     "c28-perf-max-cascache-exact-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c29",
+  "plan": "new-scenes",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "traverse-native",
+    "run_ids": [
+     "c29-traverse-native-r1"
+    ]
+   },
+   {
+    "row": "traverse-perf",
+    "run_ids": [
+     "c29-traverse-perf-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c3",
+  "plan": "blessed-stack",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c3-native-r1",
+     "c3-native-r2",
+     "c3-native-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c3-fork-r1",
+     "c3-fork-r2",
+     "c3-fork-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c3-blessed-r1",
+     "c3-blessed-r2",
+     "c3-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c30",
+  "plan": "engine-fixes",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "pm-low",
+    "run_ids": [
+     "c30-pm-low-r1",
+     "c30-pm-low-r2",
+     "c30-pm-low-r3"
+    ]
+   },
+   {
+    "row": "pm-ef",
+    "run_ids": [
+     "c30-pm-ef-r1",
+     "c30-pm-ef-r2",
+     "c30-pm-ef-r3"
+    ]
+   },
+   {
+    "row": "pm-ef-ouralloc",
+    "run_ids": [
+     "c30-pm-ef-ouralloc-r1",
+     "c30-pm-ef-ouralloc-r2",
+     "c30-pm-ef-ouralloc-r3"
+    ]
+   },
+   {
+    "row": "pm-ouralloc",
+    "run_ids": [
+     "c30-pm-ouralloc-r1",
+     "c30-pm-ouralloc-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c31",
+  "plan": "critical-3",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "casc-verify",
+    "run_ids": [
+     "c31-casc-verify-r1",
+     "c31-casc-verify-r2",
+     "c31-casc-verify-r3"
+    ]
+   },
+   {
+    "row": "casc-verify-partial",
+    "run_ids": [
+     "c31-casc-verify-partial-r1",
+     "c31-casc-verify-partial-r2",
+     "c31-casc-verify-partial-r3"
+    ]
+   },
+   {
+    "row": "native",
+    "run_ids": [
+     "c31-native-r1",
+     "c31-native-r2",
+     "c31-native-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c31-perf-max-r1",
+     "c31-perf-max-r2",
+     "c31-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pm-cache",
+    "run_ids": [
+     "c31-pm-cache-r1",
+     "c31-pm-cache-r2",
+     "c31-pm-cache-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-draw",
+    "run_ids": [
+     "c31-pm-cache-draw-r1",
+     "c31-pm-cache-draw-r2",
+     "c31-pm-cache-draw-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-partial",
+    "run_ids": [
+     "c31-pm-cache-partial-r1",
+     "c31-pm-cache-partial-r2",
+     "c31-pm-cache-partial-r3"
+    ]
+   },
+   {
+    "row": "bridge-probe",
+    "run_ids": [
+     "c31-bridge-probe-r1",
+     "c31-bridge-probe-r2",
+     "c31-bridge-probe-r3"
+    ]
+   },
+   {
+    "row": "bridge-noovl",
+    "run_ids": [
+     "c31-bridge-noovl-r1",
+     "c31-bridge-noovl-r2",
+     "c31-bridge-noovl-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c32",
+  "plan": "pinning",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "pin-none-save",
+    "run_ids": [
+     "c32-pin-none-save-r1",
+     "c32-pin-none-save-r2",
+     "c32-pin-none-save-r3"
+    ]
+   },
+   {
+    "row": "pin-main-alone-save",
+    "run_ids": [
+     "c32-pin-main-alone-save-r1",
+     "c32-pin-main-alone-save-r2",
+     "c32-pin-main-alone-save-r3"
+    ]
+   },
+   {
+    "row": "pin-split-save",
+    "run_ids": [
+     "c32-pin-split-save-r1",
+     "c32-pin-split-save-r2",
+     "c32-pin-split-save-r3"
+    ]
+   },
+   {
+    "row": "pin-split-smt-save",
+    "run_ids": [
+     "c32-pin-split-smt-save-r1",
+     "c32-pin-split-smt-save-r2",
+     "c32-pin-split-smt-save-r3"
+    ]
+   },
+   {
+    "row": "pin-ideal-only-save",
+    "run_ids": [
+     "c32-pin-ideal-only-save-r1",
+     "c32-pin-ideal-only-save-r2",
+     "c32-pin-ideal-only-save-r3"
+    ]
+   },
+   {
+    "row": "pin-none-traverse",
+    "run_ids": [
+     "c32-pin-none-traverse-r1",
+     "c32-pin-none-traverse-r2",
+     "c32-pin-none-traverse-r3"
+    ]
+   },
+   {
+    "row": "pin-main-alone-traverse",
+    "run_ids": [
+     "c32-pin-main-alone-traverse-r1",
+     "c32-pin-main-alone-traverse-r2",
+     "c32-pin-main-alone-traverse-r3"
+    ]
+   },
+   {
+    "row": "pin-split-traverse",
+    "run_ids": [
+     "c32-pin-split-traverse-r1",
+     "c32-pin-split-traverse-r2",
+     "c32-pin-split-traverse-r3"
+    ]
+   },
+   {
+    "row": "pin-split-smt-traverse",
+    "run_ids": [
+     "c32-pin-split-smt-traverse-r1",
+     "c32-pin-split-smt-traverse-r2",
+     "c32-pin-split-smt-traverse-r3"
+    ]
+   },
+   {
+    "row": "pin-ideal-only-traverse",
+    "run_ids": [
+     "c32-pin-ideal-only-traverse-r1",
+     "c32-pin-ideal-only-traverse-r2",
+     "c32-pin-ideal-only-traverse-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c33",
+  "plan": "frame-timer",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "timer-native-save",
+    "run_ids": [
+     "c33-timer-native-save-r1",
+     "c33-timer-native-save-r2"
+    ]
+   },
+   {
+    "row": "timer-perf-max-save",
+    "run_ids": [
+     "c33-timer-perf-max-save-r1",
+     "c33-timer-perf-max-save-r2"
+    ]
+   },
+   {
+    "row": "timer-native-traverse",
+    "run_ids": [
+     "c33-timer-native-traverse-r1",
+     "c33-timer-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "timer-perf-max-traverse",
+    "run_ids": [
+     "c33-timer-perf-max-traverse-r1",
+     "c33-timer-perf-max-traverse-r2"
+    ]
+   },
+   {
+    "row": "timer-native-grass",
+    "run_ids": [
+     "c33-timer-native-grass-r1",
+     "c33-timer-native-grass-r2"
+    ]
+   },
+   {
+    "row": "timer-perf-max-grass",
+    "run_ids": [
+     "c33-timer-perf-max-grass-r1",
+     "c33-timer-perf-max-grass-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c34",
+  "plan": "critical-3",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "casc-verify",
+    "run_ids": [
+     "c34-casc-verify-r1",
+     "c34-casc-verify-r2",
+     "c34-casc-verify-r3"
+    ]
+   },
+   {
+    "row": "casc-verify-partial",
+    "run_ids": [
+     "c34-casc-verify-partial-r1",
+     "c34-casc-verify-partial-r2",
+     "c34-casc-verify-partial-r3"
+    ]
+   },
+   {
+    "row": "native",
+    "run_ids": [
+     "c34-native-r1",
+     "c34-native-r2",
+     "c34-native-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c34-perf-max-r1",
+     "c34-perf-max-r2",
+     "c34-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pm-cache",
+    "run_ids": [
+     "c34-pm-cache-r1",
+     "c34-pm-cache-r2",
+     "c34-pm-cache-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-draw",
+    "run_ids": [
+     "c34-pm-cache-draw-r1",
+     "c34-pm-cache-draw-r2",
+     "c34-pm-cache-draw-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-partial",
+    "run_ids": [
+     "c34-pm-cache-partial-r1",
+     "c34-pm-cache-partial-r2",
+     "c34-pm-cache-partial-r3"
+    ]
+   },
+   {
+    "row": "bridge-probe",
+    "run_ids": [
+     "c34-bridge-probe-r1",
+     "c34-bridge-probe-r2",
+     "c34-bridge-probe-r3"
+    ]
+   },
+   {
+    "row": "bridge-noovl",
+    "run_ids": [
+     "c34-bridge-noovl-r1",
+     "c34-bridge-noovl-r2",
+     "c34-bridge-noovl-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c35",
+  "plan": "fly",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "traverse-native",
+    "run_ids": [
+     "c35-traverse-native-r1",
+     "c35-traverse-native-r2",
+     "c35-traverse-native-r3"
+    ]
+   },
+   {
+    "row": "traverse-perf",
+    "run_ids": [
+     "c35-traverse-perf-r1",
+     "c35-traverse-perf-r2",
+     "c35-traverse-perf-r3"
+    ]
+   },
+   {
+    "row": "traverse-perf-max",
+    "run_ids": [
+     "c35-traverse-perf-max-r1",
+     "c35-traverse-perf-max-r2",
+     "c35-traverse-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pin-none-traverse",
+    "run_ids": [
+     "c35-pin-none-traverse-r1",
+     "c35-pin-none-traverse-r2",
+     "c35-pin-none-traverse-r3"
+    ]
+   },
+   {
+    "row": "pin-main-alone-traverse",
+    "run_ids": [
+     "c35-pin-main-alone-traverse-r1",
+     "c35-pin-main-alone-traverse-r2",
+     "c35-pin-main-alone-traverse-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c36",
+  "plan": "frame-timer",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "timer-native-save",
+    "run_ids": [
+     "c36-timer-native-save-r1",
+     "c36-timer-native-save-r2"
+    ]
+   },
+   {
+    "row": "timer-perf-max-save",
+    "run_ids": [
+     "c36-timer-perf-max-save-r1",
+     "c36-timer-perf-max-save-r2"
+    ]
+   },
+   {
+    "row": "timer-native-traverse",
+    "run_ids": [
+     "c36-timer-native-traverse-r1",
+     "c36-timer-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "timer-perf-max-traverse",
+    "run_ids": [
+     "c36-timer-perf-max-traverse-r1",
+     "c36-timer-perf-max-traverse-r2"
+    ]
+   },
+   {
+    "row": "timer-native-grass",
+    "run_ids": [
+     "c36-timer-native-grass-r1",
+     "c36-timer-native-grass-r2"
+    ]
+   },
+   {
+    "row": "timer-perf-max-grass",
+    "run_ids": [
+     "c36-timer-perf-max-grass-r1",
+     "c36-timer-perf-max-grass-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c37",
+  "plan": "critical-3",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "casc-verify",
+    "run_ids": [
+     "c37-casc-verify-r1",
+     "c37-casc-verify-r2",
+     "c37-casc-verify-r3"
+    ]
+   },
+   {
+    "row": "casc-verify-partial",
+    "run_ids": [
+     "c37-casc-verify-partial-r1",
+     "c37-casc-verify-partial-r2",
+     "c37-casc-verify-partial-r3"
+    ]
+   },
+   {
+    "row": "native",
+    "run_ids": [
+     "c37-native-r1",
+     "c37-native-r2",
+     "c37-native-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c37-perf-max-r1",
+     "c37-perf-max-r2",
+     "c37-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pm-cache",
+    "run_ids": [
+     "c37-pm-cache-r1",
+     "c37-pm-cache-r2",
+     "c37-pm-cache-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-draw",
+    "run_ids": [
+     "c37-pm-cache-draw-r1",
+     "c37-pm-cache-draw-r2",
+     "c37-pm-cache-draw-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-partial",
+    "run_ids": [
+     "c37-pm-cache-partial-r1",
+     "c37-pm-cache-partial-r2",
+     "c37-pm-cache-partial-r3"
+    ]
+   },
+   {
+    "row": "bridge-probe",
+    "run_ids": [
+     "c37-bridge-probe-r1",
+     "c37-bridge-probe-r2",
+     "c37-bridge-probe-r3"
+    ]
+   },
+   {
+    "row": "bridge-noovl",
+    "run_ids": [
+     "c37-bridge-noovl-r1",
+     "c37-bridge-noovl-r2",
+     "c37-bridge-noovl-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c38",
+  "plan": "fe-hunt",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "fecheck0",
+    "run_ids": [
+     "c38-fecheck0-r1",
+     "c38-fecheck0-r2",
+     "c38-fecheck0-r3"
+    ]
+   },
+   {
+    "row": "fecheck1",
+    "run_ids": [
+     "c38-fecheck1-r1",
+     "c38-fecheck1-r2",
+     "c38-fecheck1-r3"
+    ]
+   },
+   {
+    "row": "fecheck2",
+    "run_ids": [
+     "c38-fecheck2-r1",
+     "c38-fecheck2-r2",
+     "c38-fecheck2-r3"
+    ]
+   },
+   {
+    "row": "fecheck3",
+    "run_ids": [
+     "c38-fecheck3-r1",
+     "c38-fecheck3-r2"
+    ]
+   },
+   {
+    "row": "fecheck4",
+    "run_ids": [
+     "c38-fecheck4-r1",
+     "c38-fecheck4-r2"
+    ]
+   },
+   {
+    "row": "fecheck5",
+    "run_ids": [
+     "c38-fecheck5-r1",
+     "c38-fecheck5-r2"
+    ]
+   },
+   {
+    "row": "fecheck6",
+    "run_ids": [
+     "c38-fecheck6-r1",
+     "c38-fecheck6-r2"
+    ]
+   },
+   {
+    "row": "fecheck7",
+    "run_ids": [
+     "c38-fecheck7-r1",
+     "c38-fecheck7-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c39",
+  "plan": "fe-hunt-2",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "hunt0-nolock",
+    "run_ids": [
+     "c39-hunt0-nolock-r1",
+     "c39-hunt0-nolock-r2"
+    ]
+   },
+   {
+    "row": "hunt0-lock",
+    "run_ids": [
+     "c39-hunt0-lock-r1",
+     "c39-hunt0-lock-r2"
+    ]
+   },
+   {
+    "row": "hunt1-nolock",
+    "run_ids": [
+     "c39-hunt1-nolock-r1",
+     "c39-hunt1-nolock-r2"
+    ]
+   },
+   {
+    "row": "hunt1-lock",
+    "run_ids": [
+     "c39-hunt1-lock-r1",
+     "c39-hunt1-lock-r2"
+    ]
+   },
+   {
+    "row": "hunt2-nolock",
+    "run_ids": [
+     "c39-hunt2-nolock-r1",
+     "c39-hunt2-nolock-r2"
+    ]
+   },
+   {
+    "row": "hunt2-lock",
+    "run_ids": [
+     "c39-hunt2-lock-r1",
+     "c39-hunt2-lock-r2"
+    ]
+   },
+   {
+    "row": "hunt3-nolock",
+    "run_ids": [
+     "c39-hunt3-nolock-r1",
+     "c39-hunt3-nolock-r2"
+    ]
+   },
+   {
+    "row": "hunt3-lock",
+    "run_ids": [
+     "c39-hunt3-lock-r1",
+     "c39-hunt3-lock-r2"
+    ]
+   },
+   {
+    "row": "hunt4-nolock",
+    "run_ids": [
+     "c39-hunt4-nolock-r1",
+     "c39-hunt4-nolock-r2"
+    ]
+   },
+   {
+    "row": "hunt4-lock",
+    "run_ids": [
+     "c39-hunt4-lock-r1",
+     "c39-hunt4-lock-r2"
+    ]
+   },
+   {
+    "row": "hunt5-nolock",
+    "run_ids": [
+     "c39-hunt5-nolock-r1",
+     "c39-hunt5-nolock-r2"
+    ]
+   },
+   {
+    "row": "hunt5-lock",
+    "run_ids": [
+     "c39-hunt5-lock-r1",
+     "c39-hunt5-lock-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c4",
+  "plan": "uncapped",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c4-native-r1",
+     "c4-native-r2",
+     "c4-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c4-dxvk-r1",
+     "c4-dxvk-r2",
+     "c4-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c4-fork-r1",
+     "c4-fork-r2",
+     "c4-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-rt-skip",
+    "run_ids": [
+     "c4-fork-rt-skip-r1",
+     "c4-fork-rt-skip-r2",
+     "c4-fork-rt-skip-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c4-blessed-r1",
+     "c4-blessed-r2",
+     "c4-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c40",
+  "plan": "water",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "pm-save-low",
+    "run_ids": [
+     "c40-pm-save-low-r1",
+     "c40-pm-save-low-r2",
+     "c40-pm-save-low-r3"
+    ]
+   },
+   {
+    "row": "pm-grass-low",
+    "run_ids": [
+     "c40-pm-grass-low-r1",
+     "c40-pm-grass-low-r2",
+     "c40-pm-grass-low-r3"
+    ]
+   },
+   {
+    "row": "pm-water-save-low",
+    "run_ids": [
+     "c40-pm-water-save-low-r1",
+     "c40-pm-water-save-low-r2",
+     "c40-pm-water-save-low-r3"
+    ]
+   },
+   {
+    "row": "pm-water-grass-low",
+    "run_ids": [
+     "c40-pm-water-grass-low-r1",
+     "c40-pm-water-grass-low-r2",
+     "c40-pm-water-grass-low-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c41",
+  "plan": "fly",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "traverse-native",
+    "run_ids": [
+     "c41-traverse-native-r1",
+     "c41-traverse-native-r2",
+     "c41-traverse-native-r3"
+    ]
+   },
+   {
+    "row": "traverse-perf",
+    "run_ids": [
+     "c41-traverse-perf-r1",
+     "c41-traverse-perf-r2",
+     "c41-traverse-perf-r3"
+    ]
+   },
+   {
+    "row": "traverse-perf-max",
+    "run_ids": [
+     "c41-traverse-perf-max-r1",
+     "c41-traverse-perf-max-r2",
+     "c41-traverse-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pin-none-traverse",
+    "run_ids": [
+     "c41-pin-none-traverse-r1",
+     "c41-pin-none-traverse-r2",
+     "c41-pin-none-traverse-r3"
+    ]
+   },
+   {
+    "row": "pin-main-alone-traverse",
+    "run_ids": [
+     "c41-pin-main-alone-traverse-r1",
+     "c41-pin-main-alone-traverse-r2",
+     "c41-pin-main-alone-traverse-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c42",
+  "plan": "water",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "pm-save-low",
+    "run_ids": [
+     "c42-pm-save-low-r1",
+     "c42-pm-save-low-r2",
+     "c42-pm-save-low-r3"
+    ]
+   },
+   {
+    "row": "pm-grass-low",
+    "run_ids": [
+     "c42-pm-grass-low-r1",
+     "c42-pm-grass-low-r2",
+     "c42-pm-grass-low-r3"
+    ]
+   },
+   {
+    "row": "pm-water-save-low",
+    "run_ids": [
+     "c42-pm-water-save-low-r1",
+     "c42-pm-water-save-low-r2",
+     "c42-pm-water-save-low-r3"
+    ]
+   },
+   {
+    "row": "pm-water-grass-low",
+    "run_ids": [
+     "c42-pm-water-grass-low-r1",
+     "c42-pm-water-grass-low-r2",
+     "c42-pm-water-grass-low-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c43",
+  "plan": "load-hunt",
+  "repeats": 4,
+  "rows": [
+   {
+    "row": "load0-nolock",
+    "run_ids": [
+     "c43-load0-nolock-r1",
+     "c43-load0-nolock-r2",
+     "c43-load0-nolock-r3",
+     "c43-load0-nolock-r4"
+    ]
+   },
+   {
+    "row": "load0-lock",
+    "run_ids": [
+     "c43-load0-lock-r1",
+     "c43-load0-lock-r2",
+     "c43-load0-lock-r3",
+     "c43-load0-lock-r4"
+    ]
+   },
+   {
+    "row": "load1-nolock",
+    "run_ids": [
+     "c43-load1-nolock-r1",
+     "c43-load1-nolock-r2",
+     "c43-load1-nolock-r3",
+     "c43-load1-nolock-r4"
+    ]
+   },
+   {
+    "row": "load1-lock",
+    "run_ids": [
+     "c43-load1-lock-r1",
+     "c43-load1-lock-r2",
+     "c43-load1-lock-r3",
+     "c43-load1-lock-r4"
+    ]
+   },
+   {
+    "row": "load2-nolock",
+    "run_ids": [
+     "c43-load2-nolock-r1",
+     "c43-load2-nolock-r2",
+     "c43-load2-nolock-r3",
+     "c43-load2-nolock-r4"
+    ]
+   },
+   {
+    "row": "load2-lock",
+    "run_ids": [
+     "c43-load2-lock-r1",
+     "c43-load2-lock-r2",
+     "c43-load2-lock-r3",
+     "c43-load2-lock-r4"
+    ]
+   },
+   {
+    "row": "load3-nolock",
+    "run_ids": [
+     "c43-load3-nolock-r1",
+     "c43-load3-nolock-r2",
+     "c43-load3-nolock-r3",
+     "c43-load3-nolock-r4"
+    ]
+   },
+   {
+    "row": "load3-lock",
+    "run_ids": [
+     "c43-load3-lock-r1",
+     "c43-load3-lock-r2",
+     "c43-load3-lock-r3",
+     "c43-load3-lock-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c44",
+  "plan": "load-hunt",
+  "repeats": 4,
+  "rows": [
+   {
+    "row": "load0-nolock",
+    "run_ids": [
+     "c44-load0-nolock-r1",
+     "c44-load0-nolock-r2",
+     "c44-load0-nolock-r3",
+     "c44-load0-nolock-r4"
+    ]
+   },
+   {
+    "row": "load0-lock",
+    "run_ids": [
+     "c44-load0-lock-r1",
+     "c44-load0-lock-r2",
+     "c44-load0-lock-r3",
+     "c44-load0-lock-r4"
+    ]
+   },
+   {
+    "row": "load1-nolock",
+    "run_ids": [
+     "c44-load1-nolock-r1",
+     "c44-load1-nolock-r2",
+     "c44-load1-nolock-r3",
+     "c44-load1-nolock-r4"
+    ]
+   },
+   {
+    "row": "load1-lock",
+    "run_ids": [
+     "c44-load1-lock-r1",
+     "c44-load1-lock-r2",
+     "c44-load1-lock-r3",
+     "c44-load1-lock-r4"
+    ]
+   },
+   {
+    "row": "load2-nolock",
+    "run_ids": [
+     "c44-load2-nolock-r1",
+     "c44-load2-nolock-r2",
+     "c44-load2-nolock-r3",
+     "c44-load2-nolock-r4"
+    ]
+   },
+   {
+    "row": "load2-lock",
+    "run_ids": [
+     "c44-load2-lock-r1",
+     "c44-load2-lock-r2",
+     "c44-load2-lock-r3",
+     "c44-load2-lock-r4"
+    ]
+   },
+   {
+    "row": "load3-nolock",
+    "run_ids": [
+     "c44-load3-nolock-r1",
+     "c44-load3-nolock-r2",
+     "c44-load3-nolock-r3",
+     "c44-load3-nolock-r4"
+    ]
+   },
+   {
+    "row": "load3-lock",
+    "run_ids": [
+     "c44-load3-lock-r1",
+     "c44-load3-lock-r2",
+     "c44-load3-lock-r3",
+     "c44-load3-lock-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c45",
+  "plan": "cache-4",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "casc-verify-partial",
+    "run_ids": [
+     "c45-casc-verify-partial-r1",
+     "c45-casc-verify-partial-r2",
+     "c45-casc-verify-partial-r3"
+    ]
+   },
+   {
+    "row": "native",
+    "run_ids": [
+     "c45-native-r1",
+     "c45-native-r2",
+     "c45-native-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c45-perf-max-r1",
+     "c45-perf-max-r2",
+     "c45-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pm-cache",
+    "run_ids": [
+     "c45-pm-cache-r1",
+     "c45-pm-cache-r2",
+     "c45-pm-cache-r3"
+    ]
+   },
+   {
+    "row": "pm-cache-partial",
+    "run_ids": [
+     "c45-pm-cache-partial-r1",
+     "c45-pm-cache-partial-r2",
+     "c45-pm-cache-partial-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c46",
+  "plan": "cs-compare",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c46-native-save-r1",
+     "c46-native-save-r2",
+     "c46-native-save-r3"
+    ]
+   },
+   {
+    "row": "native-cs-save",
+    "run_ids": [
+     "c46-native-cs-save-r1",
+     "c46-native-cs-save-r2",
+     "c46-native-cs-save-r3"
+    ]
+   },
+   {
+    "row": "perfmax-save",
+    "run_ids": [
+     "c46-perfmax-save-r1",
+     "c46-perfmax-save-r2",
+     "c46-perfmax-save-r3"
+    ]
+   },
+   {
+    "row": "perfmax-cs-save",
+    "run_ids": [
+     "c46-perfmax-cs-save-r1",
+     "c46-perfmax-cs-save-r2",
+     "c46-perfmax-cs-save-r3"
+    ]
+   },
+   {
+    "row": "blessed-save",
+    "run_ids": [
+     "c46-blessed-save-r1",
+     "c46-blessed-save-r2",
+     "c46-blessed-save-r3"
+    ]
+   },
+   {
+    "row": "native-grass",
+    "run_ids": [
+     "c46-native-grass-r1",
+     "c46-native-grass-r2",
+     "c46-native-grass-r3"
+    ]
+   },
+   {
+    "row": "native-cs-grass",
+    "run_ids": [
+     "c46-native-cs-grass-r1",
+     "c46-native-cs-grass-r2",
+     "c46-native-cs-grass-r3"
+    ]
+   },
+   {
+    "row": "perfmax-grass",
+    "run_ids": [
+     "c46-perfmax-grass-r1",
+     "c46-perfmax-grass-r2",
+     "c46-perfmax-grass-r3"
+    ]
+   },
+   {
+    "row": "perfmax-cs-grass",
+    "run_ids": [
+     "c46-perfmax-cs-grass-r1",
+     "c46-perfmax-cs-grass-r2",
+     "c46-perfmax-cs-grass-r3"
+    ]
+   },
+   {
+    "row": "blessed-grass",
+    "run_ids": [
+     "c46-blessed-grass-r1",
+     "c46-blessed-grass-r2",
+     "c46-blessed-grass-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c46p",
+  "plan": "cs-prime",
+  "repeats": 1,
+  "rows": [
+   {
+    "row": "prime-native-cs-save",
+    "run_ids": [
+     "c46p-prime-native-cs-save-r1"
+    ]
+   },
+   {
+    "row": "prime-perfmax-cs-save",
+    "run_ids": [
+     "c46p-prime-perfmax-cs-save-r1"
+    ]
+   },
+   {
+    "row": "prime-perfmax-cs-grass",
+    "run_ids": [
+     "c46p-prime-perfmax-cs-grass-r1"
+    ]
+   },
+   {
+    "row": "prime-blessed-grass",
+    "run_ids": [
+     "c46p-prime-blessed-grass-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c47",
+  "plan": "unmeasured-levers",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c47-native-r1",
+     "c47-native-r2",
+     "c47-native-r3"
+    ]
+   },
+   {
+    "row": "pm",
+    "run_ids": [
+     "c47-pm-r1",
+     "c47-pm-r2",
+     "c47-pm-r3"
+    ]
+   },
+   {
+    "row": "pm-vrs",
+    "run_ids": [
+     "c47-pm-vrs-r1",
+     "c47-pm-vrs-r2",
+     "c47-pm-vrs-r3"
+    ]
+   },
+   {
+    "row": "pm-halfrate",
+    "run_ids": [
+     "c47-pm-halfrate-r1",
+     "c47-pm-halfrate-r2",
+     "c47-pm-halfrate-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c47-blessed-r1",
+     "c47-blessed-r2",
+     "c47-blessed-r3"
+    ]
+   },
+   {
+    "row": "blessed-async",
+    "run_ids": [
+     "c47-blessed-async-r1",
+     "c47-blessed-async-r2",
+     "c47-blessed-async-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c48",
+  "plan": "passes-bit8",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "passes-native",
+    "run_ids": [
+     "c48-passes-native-r1",
+     "c48-passes-native-r2"
+    ]
+   },
+   {
+    "row": "passes-pm",
+    "run_ids": [
+     "c48-passes-pm-r1",
+     "c48-passes-pm-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c49",
+  "plan": "dxvk-conf-sweep",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "conf-base",
+    "run_ids": [
+     "c49-conf-base-r1",
+     "c49-conf-base-r2",
+     "c49-conf-base-r3"
+    ]
+   },
+   {
+    "row": "conf-relaxedBarriers",
+    "run_ids": [
+     "c49-conf-relaxedBarriers-r1",
+     "c49-conf-relaxedBarriers-r2",
+     "c49-conf-relaxedBarriers-r3"
+    ]
+   },
+   {
+    "row": "conf-relaxedGfxBarriers",
+    "run_ids": [
+     "c49-conf-relaxedGfxBarriers-r1",
+     "c49-conf-relaxedGfxBarriers-r2",
+     "c49-conf-relaxedGfxBarriers-r3"
+    ]
+   },
+   {
+    "row": "conf-cachedDyn-none",
+    "run_ids": [
+     "c49-conf-cachedDyn-none-r1",
+     "c49-conf-cachedDyn-none-r2",
+     "c49-conf-cachedDyn-none-r3"
+    ]
+   },
+   {
+    "row": "conf-noGPL",
+    "run_ids": [
+     "c49-conf-noGPL-r1",
+     "c49-conf-noGPL-r2",
+     "c49-conf-noGPL-r3"
+    ]
+   },
+   {
+    "row": "conf-maxFrameLatency1",
+    "run_ids": [
+     "c49-conf-maxFrameLatency1-r1",
+     "c49-conf-maxFrameLatency1-r2",
+     "c49-conf-maxFrameLatency1-r3"
+    ]
+   },
+   {
+    "row": "conf-zeroMapped-off",
+    "run_ids": [
+     "c49-conf-zeroMapped-off-r1",
+     "c49-conf-zeroMapped-off-r2",
+     "c49-conf-zeroMapped-off-r3"
+    ]
+   },
+   {
+    "row": "conf-cachedDyn-vir",
+    "run_ids": [
+     "c49-conf-cachedDyn-vir-r1",
+     "c49-conf-cachedDyn-vir-r2",
+     "c49-conf-cachedDyn-vir-r3"
+    ]
+   },
+   {
+    "row": "conf-cachedDyn-vir-noring",
+    "run_ids": [
+     "c49-conf-cachedDyn-vir-noring-r1",
+     "c49-conf-cachedDyn-vir-noring-r2",
+     "c49-conf-cachedDyn-vir-noring-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c5",
+  "plan": "fork-cpu",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c5-dxvk-r1",
+     "c5-dxvk-r2",
+     "c5-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c5-fork-r1",
+     "c5-fork-r2",
+     "c5-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-probe",
+    "run_ids": [
+     "c5-fork-probe-r1",
+     "c5-fork-probe-r2",
+     "c5-fork-probe-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c50",
+  "plan": "midframe-split",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "split0",
+    "run_ids": [
+     "c50-split0-r1",
+     "c50-split0-r2",
+     "c50-split0-r3"
+    ]
+   },
+   {
+    "row": "split1",
+    "run_ids": [
+     "c50-split1-r1",
+     "c50-split1-r2",
+     "c50-split1-r3"
+    ]
+   },
+   {
+    "row": "split2",
+    "run_ids": [
+     "c50-split2-r1",
+     "c50-split2-r2",
+     "c50-split2-r3"
+    ]
+   },
+   {
+    "row": "split3",
+    "run_ids": [
+     "c50-split3-r1",
+     "c50-split3-r2",
+     "c50-split3-r3"
+    ]
+   },
+   {
+    "row": "split5",
+    "run_ids": [
+     "c50-split5-r1",
+     "c50-split5-r2",
+     "c50-split5-r3"
+    ]
+   },
+   {
+    "row": "split8",
+    "run_ids": [
+     "c50-split8-r1",
+     "c50-split8-r2",
+     "c50-split8-r3"
+    ]
+   },
+   {
+    "row": "split9",
+    "run_ids": [
+     "c50-split9-r1",
+     "c50-split9-r2",
+     "c50-split9-r3"
+    ]
+   },
+   {
+    "row": "split10",
+    "run_ids": [
+     "c50-split10-r1",
+     "c50-split10-r2",
+     "c50-split10-r3"
+    ]
+   },
+   {
+    "row": "split11",
+    "run_ids": [
+     "c50-split11-r1",
+     "c50-split11-r2",
+     "c50-split11-r3"
+    ]
+   },
+   {
+    "row": "split12",
+    "run_ids": [
+     "c50-split12-r1",
+     "c50-split12-r2",
+     "c50-split12-r3"
+    ]
+   },
+   {
+    "row": "split13",
+    "run_ids": [
+     "c50-split13-r1",
+     "c50-split13-r2",
+     "c50-split13-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c51",
+  "plan": "unmeasured-levers-2",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "pm",
+    "run_ids": [
+     "c51-pm-r1",
+     "c51-pm-r2",
+     "c51-pm-r3"
+    ]
+   },
+   {
+    "row": "pm-vrs-const2x2",
+    "run_ids": [
+     "c51-pm-vrs-const2x2-r1",
+     "c51-pm-vrs-const2x2-r2",
+     "c51-pm-vrs-const2x2-r3"
+    ]
+   },
+   {
+    "row": "pm-vrs-adaptive",
+    "run_ids": [
+     "c51-pm-vrs-adaptive-r1",
+     "c51-pm-vrs-adaptive-r2",
+     "c51-pm-vrs-adaptive-r3"
+    ]
+   },
+   {
+    "row": "pm-halfrate",
+    "run_ids": [
+     "c51-pm-halfrate-r1",
+     "c51-pm-halfrate-r2",
+     "c51-pm-halfrate-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c52",
+  "plan": "cb-mirror",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c52-native-r1",
+     "c52-native-r2",
+     "c52-native-r3"
+    ]
+   },
+   {
+    "row": "perf-max",
+    "run_ids": [
+     "c52-perf-max-r1",
+     "c52-perf-max-r2",
+     "c52-perf-max-r3"
+    ]
+   },
+   {
+    "row": "pm-cbmirror",
+    "run_ids": [
+     "c52-pm-cbmirror-r1",
+     "c52-pm-cbmirror-r2",
+     "c52-pm-cbmirror-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c53",
+  "plan": "mirror-confirm",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c53-native-save-r1",
+     "c53-native-save-r2",
+     "c53-native-save-r3",
+     "c53-native-save-r4",
+     "c53-native-save-r5"
+    ]
+   },
+   {
+    "row": "pm-mirror-save",
+    "run_ids": [
+     "c53-pm-mirror-save-r1",
+     "c53-pm-mirror-save-r2",
+     "c53-pm-mirror-save-r3",
+     "c53-pm-mirror-save-r4",
+     "c53-pm-mirror-save-r5"
+    ]
+   },
+   {
+    "row": "native-grass",
+    "run_ids": [
+     "c53-native-grass-r1",
+     "c53-native-grass-r2",
+     "c53-native-grass-r3",
+     "c53-native-grass-r4",
+     "c53-native-grass-r5"
+    ]
+   },
+   {
+    "row": "pm-mirror-grass",
+    "run_ids": [
+     "c53-pm-mirror-grass-r1",
+     "c53-pm-mirror-grass-r2",
+     "c53-pm-mirror-grass-r3",
+     "c53-pm-mirror-grass-r4",
+     "c53-pm-mirror-grass-r5"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c53-native-traverse-r1",
+     "c53-native-traverse-r2",
+     "c53-native-traverse-r3",
+     "c53-native-traverse-r4",
+     "c53-native-traverse-r5"
+    ]
+   },
+   {
+    "row": "pm-mirror-traverse",
+    "run_ids": [
+     "c53-pm-mirror-traverse-r1",
+     "c53-pm-mirror-traverse-r2",
+     "c53-pm-mirror-traverse-r3",
+     "c53-pm-mirror-traverse-r4",
+     "c53-pm-mirror-traverse-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c54",
+  "plan": "passes-scenes",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "passes-native-grass",
+    "run_ids": [
+     "c54-passes-native-grass-r1",
+     "c54-passes-native-grass-r2"
+    ]
+   },
+   {
+    "row": "passes-pm-mirror-grass",
+    "run_ids": [
+     "c54-passes-pm-mirror-grass-r1",
+     "c54-passes-pm-mirror-grass-r2"
+    ]
+   },
+   {
+    "row": "passes-native-traverse",
+    "run_ids": [
+     "c54-passes-native-traverse-r1",
+     "c54-passes-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "passes-pm-mirror-traverse",
+    "run_ids": [
+     "c54-passes-pm-mirror-traverse-r1",
+     "c54-passes-pm-mirror-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c55",
+  "plan": "vb-rebar",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c55-native-save-r1",
+     "c55-native-save-r2",
+     "c55-native-save-r3"
+    ]
+   },
+   {
+    "row": "pm-mirror-save",
+    "run_ids": [
+     "c55-pm-mirror-save-r1",
+     "c55-pm-mirror-save-r2",
+     "c55-pm-mirror-save-r3"
+    ]
+   },
+   {
+    "row": "pm-mirror-vbrebar-save",
+    "run_ids": [
+     "c55-pm-mirror-vbrebar-save-r1",
+     "c55-pm-mirror-vbrebar-save-r2",
+     "c55-pm-mirror-vbrebar-save-r3"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c55-native-traverse-r1",
+     "c55-native-traverse-r2",
+     "c55-native-traverse-r3"
+    ]
+   },
+   {
+    "row": "pm-mirror-traverse",
+    "run_ids": [
+     "c55-pm-mirror-traverse-r1",
+     "c55-pm-mirror-traverse-r2",
+     "c55-pm-mirror-traverse-r3"
+    ]
+   },
+   {
+    "row": "pm-mirror-vbrebar-traverse",
+    "run_ids": [
+     "c55-pm-mirror-vbrebar-traverse-r1",
+     "c55-pm-mirror-vbrebar-traverse-r2",
+     "c55-pm-mirror-vbrebar-traverse-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c56",
+  "plan": "strict-screen",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c56-native-r1",
+     "c56-native-r2",
+     "c56-native-r3"
+    ]
+   },
+   {
+    "row": "strict",
+    "run_ids": [
+     "c56-strict-r1",
+     "c56-strict-r2",
+     "c56-strict-r3"
+    ]
+   },
+   {
+    "row": "strict-blur",
+    "run_ids": [
+     "c56-strict-blur-r1",
+     "c56-strict-blur-r2",
+     "c56-strict-blur-r3"
+    ]
+   },
+   {
+    "row": "strict-blur-heapoff",
+    "run_ids": [
+     "c56-strict-blur-heapoff-r1",
+     "c56-strict-blur-heapoff-r2",
+     "c56-strict-blur-heapoff-r3"
+    ]
+   },
+   {
+    "row": "strict-blur-legacy",
+    "run_ids": [
+     "c56-strict-blur-legacy-r1",
+     "c56-strict-blur-legacy-r2",
+     "c56-strict-blur-legacy-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c57-hagsoff",
+  "plan": "hags-ab",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c57-hagsoff-native-save-r1",
+     "c57-hagsoff-native-save-r2",
+     "c57-hagsoff-native-save-r3",
+     "c57-hagsoff-native-save-r4",
+     "c57-hagsoff-native-save-r5"
+    ]
+   },
+   {
+    "row": "strict-blur-save",
+    "run_ids": [
+     "c57-hagsoff-strict-blur-save-r1",
+     "c57-hagsoff-strict-blur-save-r2",
+     "c57-hagsoff-strict-blur-save-r3",
+     "c57-hagsoff-strict-blur-save-r4",
+     "c57-hagsoff-strict-blur-save-r5"
+    ]
+   },
+   {
+    "row": "perfmax-save",
+    "run_ids": [
+     "c57-hagsoff-perfmax-save-r1",
+     "c57-hagsoff-perfmax-save-r2",
+     "c57-hagsoff-perfmax-save-r3",
+     "c57-hagsoff-perfmax-save-r4",
+     "c57-hagsoff-perfmax-save-r5"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c57-hagsoff-native-traverse-r1",
+     "c57-hagsoff-native-traverse-r2",
+     "c57-hagsoff-native-traverse-r3",
+     "c57-hagsoff-native-traverse-r4",
+     "c57-hagsoff-native-traverse-r5"
+    ]
+   },
+   {
+    "row": "strict-blur-traverse",
+    "run_ids": [
+     "c57-hagsoff-strict-blur-traverse-r1",
+     "c57-hagsoff-strict-blur-traverse-r2",
+     "c57-hagsoff-strict-blur-traverse-r3",
+     "c57-hagsoff-strict-blur-traverse-r4",
+     "c57-hagsoff-strict-blur-traverse-r5"
+    ]
+   },
+   {
+    "row": "perfmax-traverse",
+    "run_ids": [
+     "c57-hagsoff-perfmax-traverse-r1",
+     "c57-hagsoff-perfmax-traverse-r2",
+     "c57-hagsoff-perfmax-traverse-r3",
+     "c57-hagsoff-perfmax-traverse-r4",
+     "c57-hagsoff-perfmax-traverse-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c57-hagson",
+  "plan": "hags-ab",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c57-hagson-native-save-r1",
+     "c57-hagson-native-save-r2",
+     "c57-hagson-native-save-r3",
+     "c57-hagson-native-save-r4"
+    ]
+   },
+   {
+    "row": "strict-blur-save",
+    "run_ids": [
+     "c57-hagson-strict-blur-save-r1",
+     "c57-hagson-strict-blur-save-r2",
+     "c57-hagson-strict-blur-save-r3",
+     "c57-hagson-strict-blur-save-r4"
+    ]
+   },
+   {
+    "row": "perfmax-save",
+    "run_ids": [
+     "c57-hagson-perfmax-save-r1",
+     "c57-hagson-perfmax-save-r2",
+     "c57-hagson-perfmax-save-r3",
+     "c57-hagson-perfmax-save-r4"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c57-hagson-native-traverse-r1",
+     "c57-hagson-native-traverse-r2",
+     "c57-hagson-native-traverse-r3",
+     "c57-hagson-native-traverse-r4"
+    ]
+   },
+   {
+    "row": "strict-blur-traverse",
+    "run_ids": [
+     "c57-hagson-strict-blur-traverse-r1",
+     "c57-hagson-strict-blur-traverse-r2",
+     "c57-hagson-strict-blur-traverse-r3",
+     "c57-hagson-strict-blur-traverse-r4"
+    ]
+   },
+   {
+    "row": "perfmax-traverse",
+    "run_ids": [
+     "c57-hagson-perfmax-traverse-r1",
+     "c57-hagson-perfmax-traverse-r2",
+     "c57-hagson-perfmax-traverse-r3",
+     "c57-hagson-perfmax-traverse-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c58",
+  "plan": "primed",
+  "repeats": 11,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c58-native-r1",
+     "c58-native-r2",
+     "c58-native-r3",
+     "c58-native-r4",
+     "c58-native-r5",
+     "c58-native-r6",
+     "c58-native-r7",
+     "c58-native-r8",
+     "c58-native-r9",
+     "c58-native-r10",
+     "c58-native-r11"
+    ]
+   },
+   {
+    "row": "strict-heap",
+    "run_ids": [
+     "c58-strict-heap-r1",
+     "c58-strict-heap-r2",
+     "c58-strict-heap-r3",
+     "c58-strict-heap-r4",
+     "c58-strict-heap-r5",
+     "c58-strict-heap-r6",
+     "c58-strict-heap-r7",
+     "c58-strict-heap-r8",
+     "c58-strict-heap-r9",
+     "c58-strict-heap-r10",
+     "c58-strict-heap-r11"
+    ]
+   },
+   {
+    "row": "strict-dbuf",
+    "run_ids": [
+     "c58-strict-dbuf-r1",
+     "c58-strict-dbuf-r2",
+     "c58-strict-dbuf-r3",
+     "c58-strict-dbuf-r4",
+     "c58-strict-dbuf-r5",
+     "c58-strict-dbuf-r6",
+     "c58-strict-dbuf-r7",
+     "c58-strict-dbuf-r8",
+     "c58-strict-dbuf-r9",
+     "c58-strict-dbuf-r10",
+     "c58-strict-dbuf-r11"
+    ]
+   },
+   {
+    "row": "strict-unified-off",
+    "run_ids": [
+     "c58-strict-unified-off-r1",
+     "c58-strict-unified-off-r2",
+     "c58-strict-unified-off-r3",
+     "c58-strict-unified-off-r4",
+     "c58-strict-unified-off-r5",
+     "c58-strict-unified-off-r6",
+     "c58-strict-unified-off-r7",
+     "c58-strict-unified-off-r8",
+     "c58-strict-unified-off-r9",
+     "c58-strict-unified-off-r10",
+     "c58-strict-unified-off-r11"
+    ]
+   },
+   {
+    "row": "strict-mirror-early",
+    "run_ids": [
+     "c58-strict-mirror-early-r1",
+     "c58-strict-mirror-early-r2",
+     "c58-strict-mirror-early-r3",
+     "c58-strict-mirror-early-r4",
+     "c58-strict-mirror-early-r5",
+     "c58-strict-mirror-early-r6",
+     "c58-strict-mirror-early-r7",
+     "c58-strict-mirror-early-r8",
+     "c58-strict-mirror-early-r9",
+     "c58-strict-mirror-early-r10",
+     "c58-strict-mirror-early-r11"
+    ]
+   },
+   {
+    "row": "perfmax-blur",
+    "run_ids": [
+     "c58-perfmax-blur-r1",
+     "c58-perfmax-blur-r2",
+     "c58-perfmax-blur-r3",
+     "c58-perfmax-blur-r4",
+     "c58-perfmax-blur-r5",
+     "c58-perfmax-blur-r6",
+     "c58-perfmax-blur-r7",
+     "c58-perfmax-blur-r8",
+     "c58-perfmax-blur-r9",
+     "c58-perfmax-blur-r10"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c59",
+  "plan": "c59",
+  "repeats": 11,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c59-native-save-r1",
+     "c59-native-save-r2",
+     "c59-native-save-r3",
+     "c59-native-save-r4",
+     "c59-native-save-r5",
+     "c59-native-save-r6",
+     "c59-native-save-r7",
+     "c59-native-save-r8",
+     "c59-native-save-r9",
+     "c59-native-save-r10",
+     "c59-native-save-r11"
+    ]
+   },
+   {
+    "row": "perfmax-save",
+    "run_ids": [
+     "c59-perfmax-save-r1",
+     "c59-perfmax-save-r2",
+     "c59-perfmax-save-r3",
+     "c59-perfmax-save-r4",
+     "c59-perfmax-save-r5",
+     "c59-perfmax-save-r6",
+     "c59-perfmax-save-r7",
+     "c59-perfmax-save-r8",
+     "c59-perfmax-save-r9",
+     "c59-perfmax-save-r10",
+     "c59-perfmax-save-r11"
+    ]
+   },
+   {
+    "row": "perfmax-dbuf-uoff-save",
+    "run_ids": [
+     "c59-perfmax-dbuf-uoff-save-r1",
+     "c59-perfmax-dbuf-uoff-save-r2",
+     "c59-perfmax-dbuf-uoff-save-r3",
+     "c59-perfmax-dbuf-uoff-save-r4",
+     "c59-perfmax-dbuf-uoff-save-r5",
+     "c59-perfmax-dbuf-uoff-save-r6",
+     "c59-perfmax-dbuf-uoff-save-r7",
+     "c59-perfmax-dbuf-uoff-save-r8",
+     "c59-perfmax-dbuf-uoff-save-r9",
+     "c59-perfmax-dbuf-uoff-save-r10",
+     "c59-perfmax-dbuf-uoff-save-r11"
+    ]
+   },
+   {
+    "row": "strict-dbuf-uoff-save",
+    "run_ids": [
+     "c59-strict-dbuf-uoff-save-r1",
+     "c59-strict-dbuf-uoff-save-r2",
+     "c59-strict-dbuf-uoff-save-r3",
+     "c59-strict-dbuf-uoff-save-r4",
+     "c59-strict-dbuf-uoff-save-r5",
+     "c59-strict-dbuf-uoff-save-r6",
+     "c59-strict-dbuf-uoff-save-r7",
+     "c59-strict-dbuf-uoff-save-r8",
+     "c59-strict-dbuf-uoff-save-r9",
+     "c59-strict-dbuf-uoff-save-r10",
+     "c59-strict-dbuf-uoff-save-r11"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c59-native-traverse-r1",
+     "c59-native-traverse-r2",
+     "c59-native-traverse-r3",
+     "c59-native-traverse-r4",
+     "c59-native-traverse-r5",
+     "c59-native-traverse-r6",
+     "c59-native-traverse-r7",
+     "c59-native-traverse-r8",
+     "c59-native-traverse-r9",
+     "c59-native-traverse-r10",
+     "c59-native-traverse-r11"
+    ]
+   },
+   {
+    "row": "perfmax-traverse",
+    "run_ids": [
+     "c59-perfmax-traverse-r1",
+     "c59-perfmax-traverse-r2",
+     "c59-perfmax-traverse-r3",
+     "c59-perfmax-traverse-r4",
+     "c59-perfmax-traverse-r5",
+     "c59-perfmax-traverse-r6",
+     "c59-perfmax-traverse-r7",
+     "c59-perfmax-traverse-r8",
+     "c59-perfmax-traverse-r9",
+     "c59-perfmax-traverse-r10",
+     "c59-perfmax-traverse-r11"
+    ]
+   },
+   {
+    "row": "perfmax-dbuf-uoff-traverse",
+    "run_ids": [
+     "c59-perfmax-dbuf-uoff-traverse-r1",
+     "c59-perfmax-dbuf-uoff-traverse-r2",
+     "c59-perfmax-dbuf-uoff-traverse-r3",
+     "c59-perfmax-dbuf-uoff-traverse-r4",
+     "c59-perfmax-dbuf-uoff-traverse-r5",
+     "c59-perfmax-dbuf-uoff-traverse-r6",
+     "c59-perfmax-dbuf-uoff-traverse-r7",
+     "c59-perfmax-dbuf-uoff-traverse-r8",
+     "c59-perfmax-dbuf-uoff-traverse-r9",
+     "c59-perfmax-dbuf-uoff-traverse-r10",
+     "c59-perfmax-dbuf-uoff-traverse-r11"
+    ]
+   },
+   {
+    "row": "strict-traverse",
+    "run_ids": [
+     "c59-strict-traverse-r1",
+     "c59-strict-traverse-r2",
+     "c59-strict-traverse-r3",
+     "c59-strict-traverse-r4",
+     "c59-strict-traverse-r5",
+     "c59-strict-traverse-r6",
+     "c59-strict-traverse-r7",
+     "c59-strict-traverse-r8",
+     "c59-strict-traverse-r9",
+     "c59-strict-traverse-r10",
+     "c59-strict-traverse-r11"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c6",
+  "plan": "probe-gi",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "fork",
+    "run_ids": [
+     "c6-fork-r1",
+     "c6-fork-r2",
+     "c6-fork-r3"
+    ]
+   },
+   {
+    "row": "fork-probe",
+    "run_ids": [
+     "c6-fork-probe-r1",
+     "c6-fork-probe-r2",
+     "c6-fork-probe-r3"
+    ]
+   },
+   {
+    "row": "fork-probe8",
+    "run_ids": [
+     "c6-fork-probe8-r1",
+     "c6-fork-probe8-r2",
+     "c6-fork-probe8-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c6-blessed-r1",
+     "c6-blessed-r2",
+     "c6-blessed-r3"
+    ]
+   },
+   {
+    "row": "blessed-v0",
+    "run_ids": [
+     "c6-blessed-v0-r1",
+     "c6-blessed-v0-r2",
+     "c6-blessed-v0-r3"
+    ]
+   },
+   {
+    "row": "blessed-probe8",
+    "run_ids": [
+     "c6-blessed-probe8-r1",
+     "c6-blessed-probe8-r2",
+     "c6-blessed-probe8-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c60",
+  "plan": "passes-c60",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "passes-native-save",
+    "run_ids": [
+     "c60-passes-native-save-r1",
+     "c60-passes-native-save-r2"
+    ]
+   },
+   {
+    "row": "passes-pmdb-save",
+    "run_ids": [
+     "c60-passes-pmdb-save-r1",
+     "c60-passes-pmdb-save-r2"
+    ]
+   },
+   {
+    "row": "passes-native-traverse",
+    "run_ids": [
+     "c60-passes-native-traverse-r1",
+     "c60-passes-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "passes-pmdb-traverse",
+    "run_ids": [
+     "c60-passes-pmdb-traverse-r1",
+     "c60-passes-pmdb-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c61",
+  "plan": "c61-volgen",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c61-native-save-r1"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c61-pm-save-r1"
+    ]
+   },
+   {
+    "row": "pm-volgen-save",
+    "run_ids": [
+     "c61-pm-volgen-save-r1"
+    ]
+   },
+   {
+    "row": "strict-save",
+    "run_ids": [
+     "c61-strict-save-r1"
+    ]
+   },
+   {
+    "row": "strict-volgen-save",
+    "run_ids": [
+     "c61-strict-volgen-save-r1"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c61-native-traverse-r1"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c61-pm-traverse-r1"
+    ]
+   },
+   {
+    "row": "pm-volgen-traverse",
+    "run_ids": [
+     "c61-pm-volgen-traverse-r1"
+    ]
+   },
+   {
+    "row": "strict-traverse",
+    "run_ids": [
+     "c61-strict-traverse-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c62",
+  "plan": "c62-fe-shadow",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c62-native-save-r1",
+     "c62-native-save-r2",
+     "c62-native-save-r3"
+    ]
+   },
+   {
+    "row": "pm-volgen-shadow-save",
+    "run_ids": [
+     "c62-pm-volgen-shadow-save-r1",
+     "c62-pm-volgen-shadow-save-r2",
+     "c62-pm-volgen-shadow-save-r3",
+     "c62-pm-volgen-shadow-save-r4"
+    ]
+   },
+   {
+    "row": "pm-volgen-drain-save",
+    "run_ids": [
+     "c62-pm-volgen-drain-save-r1",
+     "c62-pm-volgen-drain-save-r2",
+     "c62-pm-volgen-drain-save-r3",
+     "c62-pm-volgen-drain-save-r4"
+    ]
+   },
+   {
+    "row": "strict-volgen-shadow-save",
+    "run_ids": [
+     "c62-strict-volgen-shadow-save-r1",
+     "c62-strict-volgen-shadow-save-r2",
+     "c62-strict-volgen-shadow-save-r3",
+     "c62-strict-volgen-shadow-save-r4"
+    ]
+   },
+   {
+    "row": "strict-volgen-drain-save",
+    "run_ids": [
+     "c62-strict-volgen-drain-save-r1",
+     "c62-strict-volgen-drain-save-r2",
+     "c62-strict-volgen-drain-save-r3",
+     "c62-strict-volgen-drain-save-r4"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c62-native-traverse-r1",
+     "c62-native-traverse-r2",
+     "c62-native-traverse-r3",
+     "c62-native-traverse-r4"
+    ]
+   },
+   {
+    "row": "pm-volgen-shadow-traverse",
+    "run_ids": [
+     "c62-pm-volgen-shadow-traverse-r1",
+     "c62-pm-volgen-shadow-traverse-r2",
+     "c62-pm-volgen-shadow-traverse-r3",
+     "c62-pm-volgen-shadow-traverse-r4"
+    ]
+   },
+   {
+    "row": "pm-volgen-drain-traverse",
+    "run_ids": [
+     "c62-pm-volgen-drain-traverse-r1",
+     "c62-pm-volgen-drain-traverse-r2",
+     "c62-pm-volgen-drain-traverse-r3",
+     "c62-pm-volgen-drain-traverse-r4"
+    ]
+   },
+   {
+    "row": "strict-volgen-shadow-traverse",
+    "run_ids": [
+     "c62-strict-volgen-shadow-traverse-r1",
+     "c62-strict-volgen-shadow-traverse-r2",
+     "c62-strict-volgen-shadow-traverse-r3",
+     "c62-strict-volgen-shadow-traverse-r4"
+    ]
+   },
+   {
+    "row": "strict-volgen-drain-traverse",
+    "run_ids": [
+     "c62-strict-volgen-drain-traverse-r1",
+     "c62-strict-volgen-drain-traverse-r2",
+     "c62-strict-volgen-drain-traverse-r3",
+     "c62-strict-volgen-drain-traverse-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c63-bit8a",
+  "plan": "c63-flags",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c63-bit8a-native-save-r1",
+     "c63-bit8a-native-save-r2"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c63-bit8a-pm-save-r1",
+     "c63-bit8a-pm-save-r2"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c63-bit8a-native-traverse-r1",
+     "c63-bit8a-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c63-bit8a-pm-traverse-r1",
+     "c63-bit8a-pm-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c63-bit8b",
+  "plan": "c63-flags",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c63-bit8b-native-save-r1",
+     "c63-bit8b-native-save-r2"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c63-bit8b-pm-save-r1",
+     "c63-bit8b-pm-save-r2"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c63-bit8b-native-traverse-r1",
+     "c63-bit8b-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c63-bit8b-pm-traverse-r1",
+     "c63-bit8b-pm-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c63-bit8c",
+  "plan": "c63-flags",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c63-bit8c-native-save-r1",
+     "c63-bit8c-native-save-r2"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c63-bit8c-pm-save-r1",
+     "c63-bit8c-pm-save-r2"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c63-bit8c-native-traverse-r1",
+     "c63-bit8c-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c63-bit8c-pm-traverse-r1",
+     "c63-bit8c-pm-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c63-f802a5",
+  "plan": "c63-flags",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c63-f802a5-native-save-r1",
+     "c63-f802a5-native-save-r2"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c63-f802a5-pm-save-r1",
+     "c63-f802a5-pm-save-r2"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c63-f802a5-native-traverse-r1",
+     "c63-f802a5-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c63-f802a5-pm-traverse-r1",
+     "c63-f802a5-pm-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c63-f803a5",
+  "plan": "c63-flags",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c63-f803a5-native-save-r1"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c63-f803a5-pm-save-r1",
+     "c63-f803a5-pm-save-r2"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c63-f803a5-native-traverse-r1",
+     "c63-f803a5-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c63-f803a5-pm-traverse-r1",
+     "c63-f803a5-pm-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c64",
+  "plan": "c64-async",
+  "repeats": 4,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c64-native-save-r1",
+     "c64-native-save-r2",
+     "c64-native-save-r3",
+     "c64-native-save-r4"
+    ]
+   },
+   {
+    "row": "pm-sync-save",
+    "run_ids": [
+     "c64-pm-sync-save-r1",
+     "c64-pm-sync-save-r2",
+     "c64-pm-sync-save-r3",
+     "c64-pm-sync-save-r4"
+    ]
+   },
+   {
+    "row": "pm-async2-save",
+    "run_ids": [
+     "c64-pm-async2-save-r1",
+     "c64-pm-async2-save-r2",
+     "c64-pm-async2-save-r3",
+     "c64-pm-async2-save-r4"
+    ]
+   },
+   {
+    "row": "strict-sync-save",
+    "run_ids": [
+     "c64-strict-sync-save-r1",
+     "c64-strict-sync-save-r2",
+     "c64-strict-sync-save-r3",
+     "c64-strict-sync-save-r4"
+    ]
+   },
+   {
+    "row": "strict-async2-save",
+    "run_ids": [
+     "c64-strict-async2-save-r1",
+     "c64-strict-async2-save-r2",
+     "c64-strict-async2-save-r3",
+     "c64-strict-async2-save-r4"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c64-native-traverse-r1",
+     "c64-native-traverse-r2",
+     "c64-native-traverse-r3",
+     "c64-native-traverse-r4"
+    ]
+   },
+   {
+    "row": "pm-sync-traverse",
+    "run_ids": [
+     "c64-pm-sync-traverse-r1",
+     "c64-pm-sync-traverse-r2",
+     "c64-pm-sync-traverse-r3",
+     "c64-pm-sync-traverse-r4"
+    ]
+   },
+   {
+    "row": "pm-async2-traverse",
+    "run_ids": [
+     "c64-pm-async2-traverse-r1",
+     "c64-pm-async2-traverse-r2",
+     "c64-pm-async2-traverse-r3",
+     "c64-pm-async2-traverse-r4"
+    ]
+   },
+   {
+    "row": "strict-sync-traverse",
+    "run_ids": [
+     "c64-strict-sync-traverse-r1",
+     "c64-strict-sync-traverse-r2",
+     "c64-strict-sync-traverse-r3",
+     "c64-strict-sync-traverse-r4"
+    ]
+   },
+   {
+    "row": "strict-async2-traverse",
+    "run_ids": [
+     "c64-strict-async2-traverse-r1",
+     "c64-strict-async2-traverse-r2",
+     "c64-strict-async2-traverse-r3",
+     "c64-strict-async2-traverse-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c65",
+  "plan": "c65-confirm",
+  "repeats": 11,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c65-native-save-r1",
+     "c65-native-save-r2",
+     "c65-native-save-r3",
+     "c65-native-save-r4",
+     "c65-native-save-r5"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c65-pm-save-r1",
+     "c65-pm-save-r2",
+     "c65-pm-save-r3",
+     "c65-pm-save-r4",
+     "c65-pm-save-r5"
+    ]
+   },
+   {
+    "row": "strict-save",
+    "run_ids": [
+     "c65-strict-save-r1",
+     "c65-strict-save-r2",
+     "c65-strict-save-r3",
+     "c65-strict-save-r4",
+     "c65-strict-save-r5"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c65-native-traverse-r1",
+     "c65-native-traverse-r2",
+     "c65-native-traverse-r3",
+     "c65-native-traverse-r4"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c65-pm-traverse-r1",
+     "c65-pm-traverse-r2",
+     "c65-pm-traverse-r3",
+     "c65-pm-traverse-r4"
+    ]
+   },
+   {
+    "row": "strict-traverse",
+    "run_ids": [
+     "c65-strict-traverse-r1",
+     "c65-strict-traverse-r2",
+     "c65-strict-traverse-r3",
+     "c65-strict-traverse-r4"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c66",
+  "plan": "c66-fbcopy",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c66-native-save-r1",
+     "c66-native-save-r2",
+     "c66-native-save-r3",
+     "c66-native-save-r4",
+     "c66-native-save-r5",
+     "c66-native-save-r6"
+    ]
+   },
+   {
+    "row": "pm-base-save",
+    "run_ids": [
+     "c66-pm-base-save-r1",
+     "c66-pm-base-save-r2",
+     "c66-pm-base-save-r3",
+     "c66-pm-base-save-r4",
+     "c66-pm-base-save-r5",
+     "c66-pm-base-save-r6"
+    ]
+   },
+   {
+    "row": "pm-fb-save",
+    "run_ids": [
+     "c66-pm-fb-save-r1",
+     "c66-pm-fb-save-r2",
+     "c66-pm-fb-save-r3",
+     "c66-pm-fb-save-r4",
+     "c66-pm-fb-save-r5",
+     "c66-pm-fb-save-r6"
+    ]
+   },
+   {
+    "row": "strict-base-save",
+    "run_ids": [
+     "c66-strict-base-save-r1",
+     "c66-strict-base-save-r2",
+     "c66-strict-base-save-r3",
+     "c66-strict-base-save-r4",
+     "c66-strict-base-save-r5",
+     "c66-strict-base-save-r6"
+    ]
+   },
+   {
+    "row": "strict-fb-save",
+    "run_ids": [
+     "c66-strict-fb-save-r1",
+     "c66-strict-fb-save-r2",
+     "c66-strict-fb-save-r3",
+     "c66-strict-fb-save-r4",
+     "c66-strict-fb-save-r5",
+     "c66-strict-fb-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c66-native-traverse-r1",
+     "c66-native-traverse-r2",
+     "c66-native-traverse-r3",
+     "c66-native-traverse-r4",
+     "c66-native-traverse-r5",
+     "c66-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-base-traverse",
+    "run_ids": [
+     "c66-pm-base-traverse-r1",
+     "c66-pm-base-traverse-r2",
+     "c66-pm-base-traverse-r3",
+     "c66-pm-base-traverse-r4",
+     "c66-pm-base-traverse-r5",
+     "c66-pm-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-fb-traverse",
+    "run_ids": [
+     "c66-pm-fb-traverse-r1",
+     "c66-pm-fb-traverse-r2",
+     "c66-pm-fb-traverse-r3",
+     "c66-pm-fb-traverse-r4",
+     "c66-pm-fb-traverse-r5",
+     "c66-pm-fb-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-base-traverse",
+    "run_ids": [
+     "c66-strict-base-traverse-r1",
+     "c66-strict-base-traverse-r2",
+     "c66-strict-base-traverse-r3",
+     "c66-strict-base-traverse-r4",
+     "c66-strict-base-traverse-r5",
+     "c66-strict-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-fb-traverse",
+    "run_ids": [
+     "c66-strict-fb-traverse-r1",
+     "c66-strict-fb-traverse-r2",
+     "c66-strict-fb-traverse-r3",
+     "c66-strict-fb-traverse-r4",
+     "c66-strict-fb-traverse-r5",
+     "c66-strict-fb-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c67",
+  "plan": "c67-zerocopy",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c67-native-save-r1",
+     "c67-native-save-r2",
+     "c67-native-save-r3",
+     "c67-native-save-r4",
+     "c67-native-save-r5",
+     "c67-native-save-r6"
+    ]
+   },
+   {
+    "row": "pm-base-save",
+    "run_ids": [
+     "c67-pm-base-save-r1",
+     "c67-pm-base-save-r2",
+     "c67-pm-base-save-r3",
+     "c67-pm-base-save-r4",
+     "c67-pm-base-save-r5",
+     "c67-pm-base-save-r6"
+    ]
+   },
+   {
+    "row": "pm-zc-save",
+    "run_ids": [
+     "c67-pm-zc-save-r1",
+     "c67-pm-zc-save-r2",
+     "c67-pm-zc-save-r3",
+     "c67-pm-zc-save-r4",
+     "c67-pm-zc-save-r5",
+     "c67-pm-zc-save-r6"
+    ]
+   },
+   {
+    "row": "strict-base-save",
+    "run_ids": [
+     "c67-strict-base-save-r1",
+     "c67-strict-base-save-r2",
+     "c67-strict-base-save-r3",
+     "c67-strict-base-save-r4",
+     "c67-strict-base-save-r5",
+     "c67-strict-base-save-r6"
+    ]
+   },
+   {
+    "row": "strict-zc-save",
+    "run_ids": [
+     "c67-strict-zc-save-r1",
+     "c67-strict-zc-save-r2",
+     "c67-strict-zc-save-r3",
+     "c67-strict-zc-save-r4",
+     "c67-strict-zc-save-r5",
+     "c67-strict-zc-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c67-native-traverse-r1",
+     "c67-native-traverse-r2",
+     "c67-native-traverse-r3",
+     "c67-native-traverse-r4",
+     "c67-native-traverse-r5",
+     "c67-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-base-traverse",
+    "run_ids": [
+     "c67-pm-base-traverse-r1",
+     "c67-pm-base-traverse-r2",
+     "c67-pm-base-traverse-r3",
+     "c67-pm-base-traverse-r4",
+     "c67-pm-base-traverse-r5",
+     "c67-pm-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-zc-traverse",
+    "run_ids": [
+     "c67-pm-zc-traverse-r1",
+     "c67-pm-zc-traverse-r2",
+     "c67-pm-zc-traverse-r3",
+     "c67-pm-zc-traverse-r4",
+     "c67-pm-zc-traverse-r5",
+     "c67-pm-zc-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-base-traverse",
+    "run_ids": [
+     "c67-strict-base-traverse-r1",
+     "c67-strict-base-traverse-r2",
+     "c67-strict-base-traverse-r3",
+     "c67-strict-base-traverse-r4",
+     "c67-strict-base-traverse-r5",
+     "c67-strict-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-zc-traverse",
+    "run_ids": [
+     "c67-strict-zc-traverse-r1",
+     "c67-strict-zc-traverse-r2",
+     "c67-strict-zc-traverse-r3",
+     "c67-strict-zc-traverse-r4",
+     "c67-strict-zc-traverse-r5",
+     "c67-strict-zc-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c68",
+  "plan": "c68-passes",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "passes-native-traverse",
+    "run_ids": [
+     "c68-passes-native-traverse-r1",
+     "c68-passes-native-traverse-r2"
+    ]
+   },
+   {
+    "row": "passes-pm-zc-traverse",
+    "run_ids": [
+     "c68-passes-pm-zc-traverse-r1",
+     "c68-passes-pm-zc-traverse-r2"
+    ]
+   },
+   {
+    "row": "passes-strict-zc-traverse",
+    "run_ids": [
+     "c68-passes-strict-zc-traverse-r1",
+     "c68-passes-strict-zc-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c69",
+  "plan": "c69-owed",
+  "repeats": 2,
+  "rows": [
+   {
+    "row": "passes-native-save",
+    "run_ids": [
+     "c69-passes-native-save-r1",
+     "c69-passes-native-save-r2"
+    ]
+   },
+   {
+    "row": "passes-strict-zc-save",
+    "run_ids": [
+     "c69-passes-strict-zc-save-r1",
+     "c69-passes-strict-zc-save-r2"
+    ]
+   },
+   {
+    "row": "passes-strict-fbcopy-traverse",
+    "run_ids": [
+     "c69-passes-strict-fbcopy-traverse-r1",
+     "c69-passes-strict-fbcopy-traverse-r2"
+    ]
+   },
+   {
+    "row": "passes-strict-notq-traverse",
+    "run_ids": [
+     "c69-passes-strict-notq-traverse-r1",
+     "c69-passes-strict-notq-traverse-r2"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c7",
+  "plan": "uncapped-2",
+  "repeats": 3,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c7-native-r1",
+     "c7-native-r2",
+     "c7-native-r3"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c7-dxvk-r1",
+     "c7-dxvk-r2",
+     "c7-dxvk-r3"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c7-fork-r1",
+     "c7-fork-r2",
+     "c7-fork-r3"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c7-blessed-r1",
+     "c7-blessed-r2",
+     "c7-blessed-r3"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c70",
+  "plan": "c70-fpe",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c70-native-save-r1",
+     "c70-native-save-r2",
+     "c70-native-save-r3",
+     "c70-native-save-r4",
+     "c70-native-save-r5",
+     "c70-native-save-r6"
+    ]
+   },
+   {
+    "row": "pm-base-save",
+    "run_ids": [
+     "c70-pm-base-save-r1",
+     "c70-pm-base-save-r2",
+     "c70-pm-base-save-r3",
+     "c70-pm-base-save-r4",
+     "c70-pm-base-save-r5",
+     "c70-pm-base-save-r6"
+    ]
+   },
+   {
+    "row": "pm-fpe-save",
+    "run_ids": [
+     "c70-pm-fpe-save-r1",
+     "c70-pm-fpe-save-r2",
+     "c70-pm-fpe-save-r3",
+     "c70-pm-fpe-save-r4",
+     "c70-pm-fpe-save-r5",
+     "c70-pm-fpe-save-r6"
+    ]
+   },
+   {
+    "row": "strict-base-save",
+    "run_ids": [
+     "c70-strict-base-save-r1",
+     "c70-strict-base-save-r2",
+     "c70-strict-base-save-r3",
+     "c70-strict-base-save-r4",
+     "c70-strict-base-save-r5",
+     "c70-strict-base-save-r6"
+    ]
+   },
+   {
+    "row": "strict-fpe-save",
+    "run_ids": [
+     "c70-strict-fpe-save-r1",
+     "c70-strict-fpe-save-r2",
+     "c70-strict-fpe-save-r3",
+     "c70-strict-fpe-save-r4",
+     "c70-strict-fpe-save-r5",
+     "c70-strict-fpe-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c70-native-traverse-r1",
+     "c70-native-traverse-r2",
+     "c70-native-traverse-r3",
+     "c70-native-traverse-r4",
+     "c70-native-traverse-r5",
+     "c70-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-base-traverse",
+    "run_ids": [
+     "c70-pm-base-traverse-r1",
+     "c70-pm-base-traverse-r2",
+     "c70-pm-base-traverse-r3",
+     "c70-pm-base-traverse-r4",
+     "c70-pm-base-traverse-r5",
+     "c70-pm-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-fpe-traverse",
+    "run_ids": [
+     "c70-pm-fpe-traverse-r1",
+     "c70-pm-fpe-traverse-r2",
+     "c70-pm-fpe-traverse-r3",
+     "c70-pm-fpe-traverse-r4",
+     "c70-pm-fpe-traverse-r5",
+     "c70-pm-fpe-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-base-traverse",
+    "run_ids": [
+     "c70-strict-base-traverse-r1",
+     "c70-strict-base-traverse-r2",
+     "c70-strict-base-traverse-r3",
+     "c70-strict-base-traverse-r4",
+     "c70-strict-base-traverse-r5",
+     "c70-strict-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-fpe-traverse",
+    "run_ids": [
+     "c70-strict-fpe-traverse-r1",
+     "c70-strict-fpe-traverse-r2",
+     "c70-strict-fpe-traverse-r3",
+     "c70-strict-fpe-traverse-r4",
+     "c70-strict-fpe-traverse-r5",
+     "c70-strict-fpe-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c71",
+  "plan": "c71-cube-img4",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c71-native-traverse-r1",
+     "c71-native-traverse-r2",
+     "c71-native-traverse-r3",
+     "c71-native-traverse-r4",
+     "c71-native-traverse-r5",
+     "c71-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-base-traverse",
+    "run_ids": [
+     "c71-pm-base-traverse-r1",
+     "c71-pm-base-traverse-r2",
+     "c71-pm-base-traverse-r3",
+     "c71-pm-base-traverse-r4",
+     "c71-pm-base-traverse-r5",
+     "c71-pm-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-cube-traverse",
+    "run_ids": [
+     "c71-pm-cube-traverse-r1",
+     "c71-pm-cube-traverse-r2",
+     "c71-pm-cube-traverse-r3",
+     "c71-pm-cube-traverse-r4",
+     "c71-pm-cube-traverse-r5",
+     "c71-pm-cube-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-img4-traverse",
+    "run_ids": [
+     "c71-pm-img4-traverse-r1",
+     "c71-pm-img4-traverse-r2",
+     "c71-pm-img4-traverse-r3",
+     "c71-pm-img4-traverse-r4",
+     "c71-pm-img4-traverse-r5",
+     "c71-pm-img4-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-both-traverse",
+    "run_ids": [
+     "c71-pm-both-traverse-r1",
+     "c71-pm-both-traverse-r2",
+     "c71-pm-both-traverse-r3",
+     "c71-pm-both-traverse-r4",
+     "c71-pm-both-traverse-r5",
+     "c71-pm-both-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-base-traverse",
+    "run_ids": [
+     "c71-strict-base-traverse-r1",
+     "c71-strict-base-traverse-r2",
+     "c71-strict-base-traverse-r3",
+     "c71-strict-base-traverse-r4",
+     "c71-strict-base-traverse-r5",
+     "c71-strict-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-both-traverse",
+    "run_ids": [
+     "c71-strict-both-traverse-r1",
+     "c71-strict-both-traverse-r2",
+     "c71-strict-both-traverse-r3",
+     "c71-strict-both-traverse-r4",
+     "c71-strict-both-traverse-r5",
+     "c71-strict-both-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c72",
+  "plan": "c72-unified",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c72-native-traverse-r1",
+     "c72-native-traverse-r2",
+     "c72-native-traverse-r3",
+     "c72-native-traverse-r4",
+     "c72-native-traverse-r5",
+     "c72-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-uoff-traverse",
+    "run_ids": [
+     "c72-pm-uoff-traverse-r1",
+     "c72-pm-uoff-traverse-r2",
+     "c72-pm-uoff-traverse-r3",
+     "c72-pm-uoff-traverse-r4",
+     "c72-pm-uoff-traverse-r5",
+     "c72-pm-uoff-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-uon-traverse",
+    "run_ids": [
+     "c72-pm-uon-traverse-r1",
+     "c72-pm-uon-traverse-r2",
+     "c72-pm-uon-traverse-r3",
+     "c72-pm-uon-traverse-r4",
+     "c72-pm-uon-traverse-r5",
+     "c72-pm-uon-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-uoff-traverse",
+    "run_ids": [
+     "c72-strict-uoff-traverse-r1",
+     "c72-strict-uoff-traverse-r2",
+     "c72-strict-uoff-traverse-r3",
+     "c72-strict-uoff-traverse-r4",
+     "c72-strict-uoff-traverse-r5",
+     "c72-strict-uoff-traverse-r6"
+    ]
+   },
+   {
+    "row": "strict-uon-traverse",
+    "run_ids": [
+     "c72-strict-uon-traverse-r1",
+     "c72-strict-uon-traverse-r2",
+     "c72-strict-uon-traverse-r3",
+     "c72-strict-uon-traverse-r4",
+     "c72-strict-uon-traverse-r5",
+     "c72-strict-uon-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c73",
+  "plan": "c73-reflect",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c73-native-traverse-r1",
+     "c73-native-traverse-r2",
+     "c73-native-traverse-r3",
+     "c73-native-traverse-r4",
+     "c73-native-traverse-r5",
+     "c73-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-base-traverse",
+    "run_ids": [
+     "c73-pm-base-traverse-r1",
+     "c73-pm-base-traverse-r2",
+     "c73-pm-base-traverse-r3",
+     "c73-pm-base-traverse-r4",
+     "c73-pm-base-traverse-r5",
+     "c73-pm-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-refl-traverse",
+    "run_ids": [
+     "c73-pm-refl-traverse-r1",
+     "c73-pm-refl-traverse-r2",
+     "c73-pm-refl-traverse-r3",
+     "c73-pm-refl-traverse-r4",
+     "c73-pm-refl-traverse-r5",
+     "c73-pm-refl-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c74",
+  "plan": "c74-temporal",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c74-native-save-r1",
+     "c74-native-save-r2",
+     "c74-native-save-r3",
+     "c74-native-save-r4",
+     "c74-native-save-r5",
+     "c74-native-save-r6"
+    ]
+   },
+   {
+    "row": "pm-base-save",
+    "run_ids": [
+     "c74-pm-base-save-r1",
+     "c74-pm-base-save-r2",
+     "c74-pm-base-save-r3",
+     "c74-pm-base-save-r4",
+     "c74-pm-base-save-r5",
+     "c74-pm-base-save-r6"
+    ]
+   },
+   {
+    "row": "pm-casc-save",
+    "run_ids": [
+     "c74-pm-casc-save-r1",
+     "c74-pm-casc-save-r2",
+     "c74-pm-casc-save-r3",
+     "c74-pm-casc-save-r4",
+     "c74-pm-casc-save-r5",
+     "c74-pm-casc-save-r6"
+    ]
+   },
+   {
+    "row": "pm-refl-save",
+    "run_ids": [
+     "c74-pm-refl-save-r1",
+     "c74-pm-refl-save-r2",
+     "c74-pm-refl-save-r3",
+     "c74-pm-refl-save-r4",
+     "c74-pm-refl-save-r5",
+     "c74-pm-refl-save-r6"
+    ]
+   },
+   {
+    "row": "pm-both-save",
+    "run_ids": [
+     "c74-pm-both-save-r1",
+     "c74-pm-both-save-r2",
+     "c74-pm-both-save-r3",
+     "c74-pm-both-save-r4",
+     "c74-pm-both-save-r5",
+     "c74-pm-both-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c74-native-traverse-r1",
+     "c74-native-traverse-r2",
+     "c74-native-traverse-r3",
+     "c74-native-traverse-r4",
+     "c74-native-traverse-r5",
+     "c74-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-base-traverse",
+    "run_ids": [
+     "c74-pm-base-traverse-r1",
+     "c74-pm-base-traverse-r2",
+     "c74-pm-base-traverse-r3",
+     "c74-pm-base-traverse-r4",
+     "c74-pm-base-traverse-r5",
+     "c74-pm-base-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-casc-traverse",
+    "run_ids": [
+     "c74-pm-casc-traverse-r1",
+     "c74-pm-casc-traverse-r2",
+     "c74-pm-casc-traverse-r3",
+     "c74-pm-casc-traverse-r4",
+     "c74-pm-casc-traverse-r5",
+     "c74-pm-casc-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-refl-traverse",
+    "run_ids": [
+     "c74-pm-refl-traverse-r1",
+     "c74-pm-refl-traverse-r2",
+     "c74-pm-refl-traverse-r3",
+     "c74-pm-refl-traverse-r4",
+     "c74-pm-refl-traverse-r5",
+     "c74-pm-refl-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-both-traverse",
+    "run_ids": [
+     "c74-pm-both-traverse-r1",
+     "c74-pm-both-traverse-r2",
+     "c74-pm-both-traverse-r3",
+     "c74-pm-both-traverse-r4",
+     "c74-pm-both-traverse-r5",
+     "c74-pm-both-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c75",
+  "plan": "c75-sundeg",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c75-native-save-r1",
+     "c75-native-save-r2",
+     "c75-native-save-r3",
+     "c75-native-save-r4",
+     "c75-native-save-r5",
+     "c75-native-save-r6"
+    ]
+   },
+   {
+    "row": "pm-both-sun0-save",
+    "run_ids": [
+     "c75-pm-both-sun0-save-r1",
+     "c75-pm-both-sun0-save-r2",
+     "c75-pm-both-sun0-save-r3",
+     "c75-pm-both-sun0-save-r4",
+     "c75-pm-both-sun0-save-r5",
+     "c75-pm-both-sun0-save-r6"
+    ]
+   },
+   {
+    "row": "pm-both-sun005-save",
+    "run_ids": [
+     "c75-pm-both-sun005-save-r1",
+     "c75-pm-both-sun005-save-r2",
+     "c75-pm-both-sun005-save-r3",
+     "c75-pm-both-sun005-save-r4",
+     "c75-pm-both-sun005-save-r5",
+     "c75-pm-both-sun005-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c75-native-traverse-r1",
+     "c75-native-traverse-r2",
+     "c75-native-traverse-r3",
+     "c75-native-traverse-r4",
+     "c75-native-traverse-r5",
+     "c75-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-both-sun0-traverse",
+    "run_ids": [
+     "c75-pm-both-sun0-traverse-r1",
+     "c75-pm-both-sun0-traverse-r2",
+     "c75-pm-both-sun0-traverse-r3",
+     "c75-pm-both-sun0-traverse-r4",
+     "c75-pm-both-sun0-traverse-r5",
+     "c75-pm-both-sun0-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-both-sun005-traverse",
+    "run_ids": [
+     "c75-pm-both-sun005-traverse-r1",
+     "c75-pm-both-sun005-traverse-r2",
+     "c75-pm-both-sun005-traverse-r3",
+     "c75-pm-both-sun005-traverse-r4",
+     "c75-pm-both-sun005-traverse-r5",
+     "c75-pm-both-sun005-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c76",
+  "plan": "c76-final",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c76-native-save-r1",
+     "c76-native-save-r2",
+     "c76-native-save-r3",
+     "c76-native-save-r4",
+     "c76-native-save-r5",
+     "c76-native-save-r6"
+    ]
+   },
+   {
+    "row": "pm-full-save",
+    "run_ids": [
+     "c76-pm-full-save-r1",
+     "c76-pm-full-save-r2",
+     "c76-pm-full-save-r3",
+     "c76-pm-full-save-r4",
+     "c76-pm-full-save-r5",
+     "c76-pm-full-save-r6"
+    ]
+   },
+   {
+    "row": "pm-full-p3-save",
+    "run_ids": [
+     "c76-pm-full-p3-save-r1",
+     "c76-pm-full-p3-save-r2",
+     "c76-pm-full-p3-save-r3",
+     "c76-pm-full-p3-save-r4",
+     "c76-pm-full-p3-save-r5",
+     "c76-pm-full-p3-save-r6"
+    ]
+   },
+   {
+    "row": "pm-full-turn-save",
+    "run_ids": [
+     "c76-pm-full-turn-save-r1",
+     "c76-pm-full-turn-save-r2",
+     "c76-pm-full-turn-save-r3",
+     "c76-pm-full-turn-save-r4",
+     "c76-pm-full-turn-save-r5",
+     "c76-pm-full-turn-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c76-native-traverse-r1",
+     "c76-native-traverse-r2",
+     "c76-native-traverse-r3",
+     "c76-native-traverse-r4",
+     "c76-native-traverse-r5",
+     "c76-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-full-traverse",
+    "run_ids": [
+     "c76-pm-full-traverse-r1",
+     "c76-pm-full-traverse-r2",
+     "c76-pm-full-traverse-r3",
+     "c76-pm-full-traverse-r4",
+     "c76-pm-full-traverse-r5",
+     "c76-pm-full-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-full-p3-traverse",
+    "run_ids": [
+     "c76-pm-full-p3-traverse-r1",
+     "c76-pm-full-p3-traverse-r2",
+     "c76-pm-full-p3-traverse-r3",
+     "c76-pm-full-p3-traverse-r4",
+     "c76-pm-full-p3-traverse-r5",
+     "c76-pm-full-p3-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-full-turn-traverse",
+    "run_ids": [
+     "c76-pm-full-turn-traverse-r1",
+     "c76-pm-full-turn-traverse-r2",
+     "c76-pm-full-turn-traverse-r3",
+     "c76-pm-full-turn-traverse-r4",
+     "c76-pm-full-turn-traverse-r5",
+     "c76-pm-full-turn-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c77",
+  "plan": "c77-mods",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-dt-save",
+    "run_ids": [
+     "c77-native-dt-save-r1",
+     "c77-native-dt-save-r2",
+     "c77-native-dt-save-r3",
+     "c77-native-dt-save-r4",
+     "c77-native-dt-save-r5",
+     "c77-native-dt-save-r6"
+    ]
+   },
+   {
+    "row": "pm-dt-save",
+    "run_ids": [
+     "c77-pm-dt-save-r1",
+     "c77-pm-dt-save-r2",
+     "c77-pm-dt-save-r3",
+     "c77-pm-dt-save-r4",
+     "c77-pm-dt-save-r5",
+     "c77-pm-dt-save-r6"
+    ]
+   },
+   {
+    "row": "native-cs-save",
+    "run_ids": [
+     "c77-native-cs-save-r1",
+     "c77-native-cs-save-r2",
+     "c77-native-cs-save-r3",
+     "c77-native-cs-save-r4",
+     "c77-native-cs-save-r5",
+     "c77-native-cs-save-r6"
+    ]
+   },
+   {
+    "row": "pm-cs-save",
+    "run_ids": [
+     "c77-pm-cs-save-r1",
+     "c77-pm-cs-save-r2",
+     "c77-pm-cs-save-r3",
+     "c77-pm-cs-save-r4",
+     "c77-pm-cs-save-r5",
+     "c77-pm-cs-save-r6"
+    ]
+   },
+   {
+    "row": "native-dt-traverse",
+    "run_ids": [
+     "c77-native-dt-traverse-r1",
+     "c77-native-dt-traverse-r2",
+     "c77-native-dt-traverse-r3",
+     "c77-native-dt-traverse-r4",
+     "c77-native-dt-traverse-r5",
+     "c77-native-dt-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-dt-traverse",
+    "run_ids": [
+     "c77-pm-dt-traverse-r1",
+     "c77-pm-dt-traverse-r2",
+     "c77-pm-dt-traverse-r3",
+     "c77-pm-dt-traverse-r4",
+     "c77-pm-dt-traverse-r5",
+     "c77-pm-dt-traverse-r6"
+    ]
+   },
+   {
+    "row": "native-cs-traverse",
+    "run_ids": [
+     "c77-native-cs-traverse-r1",
+     "c77-native-cs-traverse-r2",
+     "c77-native-cs-traverse-r3",
+     "c77-native-cs-traverse-r4",
+     "c77-native-cs-traverse-r5",
+     "c77-native-cs-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-cs-traverse",
+    "run_ids": [
+     "c77-pm-cs-traverse-r1",
+     "c77-pm-cs-traverse-r2",
+     "c77-pm-cs-traverse-r3",
+     "c77-pm-cs-traverse-r4",
+     "c77-pm-cs-traverse-r5",
+     "c77-pm-cs-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c78",
+  "plan": "c78-mods",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-csef-save",
+    "run_ids": [
+     "c78-native-csef-save-r1"
+    ]
+   },
+   {
+    "row": "pm-csef-save",
+    "run_ids": [
+     "c78-pm-csef-save-r1"
+    ]
+   },
+   {
+    "row": "native-csef-traverse",
+    "run_ids": [
+     "c78-native-csef-traverse-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c78s",
+  "plan": "c78-smoke",
+  "repeats": 1,
+  "rows": [
+   {
+    "row": "native-csef-save",
+    "run_ids": [
+     "c78s-native-csef-save-r1"
+    ]
+   },
+   {
+    "row": "pm-csef-save",
+    "run_ids": [
+     "c78s-pm-csef-save-r1"
+    ]
+   },
+   {
+    "row": "native-ngio-traverse",
+    "run_ids": [
+     "c78s-native-ngio-traverse-r1"
+    ]
+   },
+   {
+    "row": "pm-ngio-traverse",
+    "run_ids": [
+     "c78s-pm-ngio-traverse-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c79",
+  "plan": "c79-mods",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-dtcsef-save",
+    "run_ids": [
+     "c79-native-dtcsef-save-r1",
+     "c79-native-dtcsef-save-r2",
+     "c79-native-dtcsef-save-r3",
+     "c79-native-dtcsef-save-r4",
+     "c79-native-dtcsef-save-r5",
+     "c79-native-dtcsef-save-r6"
+    ]
+   },
+   {
+    "row": "pm-dtcsef-save",
+    "run_ids": [
+     "c79-pm-dtcsef-save-r1",
+     "c79-pm-dtcsef-save-r2",
+     "c79-pm-dtcsef-save-r3",
+     "c79-pm-dtcsef-save-r4",
+     "c79-pm-dtcsef-save-r5",
+     "c79-pm-dtcsef-save-r6"
+    ]
+   },
+   {
+    "row": "native-dtcsef-traverse",
+    "run_ids": [
+     "c79-native-dtcsef-traverse-r1",
+     "c79-native-dtcsef-traverse-r2",
+     "c79-native-dtcsef-traverse-r3",
+     "c79-native-dtcsef-traverse-r4",
+     "c79-native-dtcsef-traverse-r5",
+     "c79-native-dtcsef-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-dtcsef-traverse",
+    "run_ids": [
+     "c79-pm-dtcsef-traverse-r1",
+     "c79-pm-dtcsef-traverse-r2",
+     "c79-pm-dtcsef-traverse-r3",
+     "c79-pm-dtcsef-traverse-r4",
+     "c79-pm-dtcsef-traverse-r5",
+     "c79-pm-dtcsef-traverse-r6"
+    ]
+   },
+   {
+    "row": "native-ngio-save",
+    "run_ids": [
+     "c79-native-ngio-save-r1",
+     "c79-native-ngio-save-r2",
+     "c79-native-ngio-save-r3",
+     "c79-native-ngio-save-r4",
+     "c79-native-ngio-save-r5",
+     "c79-native-ngio-save-r6"
+    ]
+   },
+   {
+    "row": "pm-ngio-save",
+    "run_ids": [
+     "c79-pm-ngio-save-r1",
+     "c79-pm-ngio-save-r2",
+     "c79-pm-ngio-save-r3",
+     "c79-pm-ngio-save-r4",
+     "c79-pm-ngio-save-r5",
+     "c79-pm-ngio-save-r6"
+    ]
+   },
+   {
+    "row": "native-ngio-traverse",
+    "run_ids": [
+     "c79-native-ngio-traverse-r1",
+     "c79-native-ngio-traverse-r2",
+     "c79-native-ngio-traverse-r3",
+     "c79-native-ngio-traverse-r4",
+     "c79-native-ngio-traverse-r5",
+     "c79-native-ngio-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-ngio-traverse",
+    "run_ids": [
+     "c79-pm-ngio-traverse-r1",
+     "c79-pm-ngio-traverse-r2",
+     "c79-pm-ngio-traverse-r3",
+     "c79-pm-ngio-traverse-r4",
+     "c79-pm-ngio-traverse-r5",
+     "c79-pm-ngio-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c79s",
+  "plan": "c79-smoke",
+  "repeats": 1,
+  "rows": [
+   {
+    "row": "native-dtcsef-save",
+    "run_ids": [
+     "c79s-native-dtcsef-save-r1"
+    ]
+   },
+   {
+    "row": "pm-dtcsef-save",
+    "run_ids": [
+     "c79s-pm-dtcsef-save-r1"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c8",
+  "plan": "uncapped-2",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c8-native-r1",
+     "c8-native-r2",
+     "c8-native-r3",
+     "c8-native-r4",
+     "c8-native-r5"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c8-dxvk-r1",
+     "c8-dxvk-r2",
+     "c8-dxvk-r3",
+     "c8-dxvk-r4",
+     "c8-dxvk-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c8-fork-r1",
+     "c8-fork-r2",
+     "c8-fork-r3",
+     "c8-fork-r4",
+     "c8-fork-r5"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c8-blessed-r1",
+     "c8-blessed-r2",
+     "c8-blessed-r3",
+     "c8-blessed-r4",
+     "c8-blessed-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c80",
+  "plan": "c80-ladder",
+  "repeats": 6,
+  "rows": [
+   {
+    "row": "native-save",
+    "run_ids": [
+     "c80-native-save-r1",
+     "c80-native-save-r2",
+     "c80-native-save-r3",
+     "c80-native-save-r4",
+     "c80-native-save-r5",
+     "c80-native-save-r6"
+    ]
+   },
+   {
+    "row": "stock-save",
+    "run_ids": [
+     "c80-stock-save-r1",
+     "c80-stock-save-r2",
+     "c80-stock-save-r3",
+     "c80-stock-save-r4",
+     "c80-stock-save-r5",
+     "c80-stock-save-r6"
+    ]
+   },
+   {
+    "row": "pm-save",
+    "run_ids": [
+     "c80-pm-save-r1",
+     "c80-pm-save-r2",
+     "c80-pm-save-r3",
+     "c80-pm-save-r4",
+     "c80-pm-save-r5",
+     "c80-pm-save-r6"
+    ]
+   },
+   {
+    "row": "native-traverse",
+    "run_ids": [
+     "c80-native-traverse-r1",
+     "c80-native-traverse-r2",
+     "c80-native-traverse-r3",
+     "c80-native-traverse-r4",
+     "c80-native-traverse-r5",
+     "c80-native-traverse-r6"
+    ]
+   },
+   {
+    "row": "stock-traverse",
+    "run_ids": [
+     "c80-stock-traverse-r1",
+     "c80-stock-traverse-r2",
+     "c80-stock-traverse-r3",
+     "c80-stock-traverse-r4",
+     "c80-stock-traverse-r5",
+     "c80-stock-traverse-r6"
+    ]
+   },
+   {
+    "row": "pm-traverse",
+    "run_ids": [
+     "c80-pm-traverse-r1",
+     "c80-pm-traverse-r2",
+     "c80-pm-traverse-r3",
+     "c80-pm-traverse-r4",
+     "c80-pm-traverse-r5",
+     "c80-pm-traverse-r6"
+    ]
+   }
+  ],
+  "paired_results": null
+ },
+ {
+  "campaign_id": "c9",
+  "plan": "uncapped-2",
+  "repeats": 5,
+  "rows": [
+   {
+    "row": "native",
+    "run_ids": [
+     "c9-native-r1",
+     "c9-native-r2",
+     "c9-native-r3",
+     "c9-native-r4",
+     "c9-native-r5"
+    ]
+   },
+   {
+    "row": "dxvk",
+    "run_ids": [
+     "c9-dxvk-r1",
+     "c9-dxvk-r2",
+     "c9-dxvk-r3",
+     "c9-dxvk-r4",
+     "c9-dxvk-r5"
+    ]
+   },
+   {
+    "row": "fork",
+    "run_ids": [
+     "c9-fork-r1",
+     "c9-fork-r2",
+     "c9-fork-r3",
+     "c9-fork-r4",
+     "c9-fork-r5"
+    ]
+   },
+   {
+    "row": "blessed",
+    "run_ids": [
+     "c9-blessed-r1",
+     "c9-blessed-r2",
+     "c9-blessed-r3",
+     "c9-blessed-r4",
+     "c9-blessed-r5"
+    ]
+   }
+  ],
+  "paired_results": null
+ }
+]
